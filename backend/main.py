@@ -9,8 +9,14 @@ from datetime import datetime
 import json
 import os
 from pathlib import Path
+import sys
 import time
 from typing import Optional
+
+# Ensure project root directory is on Python path
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 import cv2
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
@@ -282,5 +288,6 @@ async def trigger_adaptation(shots: int = 75, epochs: int = 30):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    print("[OK] Launching PCB Smart Maintenance API on http://localhost:8000 ...")
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
