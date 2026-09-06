@@ -1,0 +1,96 @@
+{
+  "source_domain": {
+    "name": "PKU-Market-PCB",
+    "num_classes": 6,
+    "classes": [
+      "missing_hole",
+      "mouse_bite",
+      "open",
+      "short",
+      "spur",
+      "spurious_copper"
+    ]
+  },
+  "target_domain": {
+    "name": "DsPCBSD+",
+    "num_classes": 9,
+    "classes": [
+      "missing_hole",
+      "mouse_bite",
+      "open_circuit",
+      "short",
+      "spur",
+      "spurious_copper",
+      "pin_hole",
+      "scratch",
+      "solder_joint_defect"
+    ]
+  },
+  "mapping": {
+    "0": {
+      "name": "missing_hole",
+      "mapped_to_id": 0,
+      "mapped_to_name": "missing_hole",
+      "rationale": "Direct 1-to-1 match"
+    },
+    "1": {
+      "name": "mouse_bite",
+      "mapped_to_id": 1,
+      "mapped_to_name": "mouse_bite",
+      "rationale": "Direct 1-to-1 match"
+    },
+    "2": {
+      "name": "open_circuit",
+      "mapped_to_id": 2,
+      "mapped_to_name": "open",
+      "rationale": "Direct equivalent nomenclature"
+    },
+    "3": {
+      "name": "short",
+      "mapped_to_id": 3,
+      "mapped_to_name": "short",
+      "rationale": "Direct 1-to-1 match"
+    },
+    "4": {
+      "name": "spur",
+      "mapped_to_id": 4,
+      "mapped_to_name": "spur",
+      "rationale": "Direct 1-to-1 match"
+    },
+    "5": {
+      "name": "spurious_copper",
+      "mapped_to_id": 5,
+      "mapped_to_name": "spurious_copper",
+      "rationale": "Direct 1-to-1 match"
+    },
+    "6": {
+      "name": "pin_hole",
+      "mapped_to_id": 0,
+      "mapped_to_name": "missing_hole",
+      "rationale": "Through-hole drilling & void defect group"
+    },
+    "7": {
+      "name": "scratch",
+      "mapped_to_id": 2,
+      "mapped_to_name": "open",
+      "rationale": "Surface trace severance & open-circuit precursor"
+    },
+    "8": {
+      "name": "solder_joint_defect",
+      "mapped_to_id": 3,
+      "mapped_to_name": "short",
+      "rationale": "Solder bridging and excess conductive deposit group"
+    }
+  },
+  "class_id_lookup": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 0,
+    "7": 2,
+    "8": 3
+  }
+}

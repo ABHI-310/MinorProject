@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# Datasets
+data/pku_market/images/
+data/pku_market/labels/
+data/pku_market/train/
+data/pku_market/val/
+data/pku_market/test/
+data/pku_market_processed/
+data/dspcbsd/images/
+data/dspcbsd/labels/
+data/dspcbsd/labelled_few_shot/
+data/dspcbsd/unlabelled/
+!data/dspcbsd/class_mapping.json
+*.zip
+*.tar.gz
+
+# Model weights
+weights/*.pt
+weights/*.onnx
+!weights/.gitkeep
+runs/
+*.pt
+*.onnx
+
+# Node / Frontend
+frontend/node_modules/
+frontend/build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

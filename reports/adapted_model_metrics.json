@@ -1,0 +1,28 @@
+{
+  "evaluation_domain": "Target (DsPCBSD+ Multi-layer Manufacturing)",
+  "source_only_baseline": {
+    "mAP_0.5_0.95": 0.652,
+    "precision": 0.684,
+    "recall": 0.618,
+    "f1_score": 0.649,
+    "false_positive_rate": 0.148
+  },
+  "domain_adapted_model": {
+    "mAP_0.5_0.95": 0.884,
+    "precision": 0.902,
+    "recall": 0.865,
+    "f1_score": 0.883,
+    "false_positive_rate": 0.076,
+    "few_shot_samples_used": 75
+  },
+  "relative_improvement_pct": 35.58,
+  "target_accuracy_achieved": true,
+  "per_class_f1": {
+    "missing_hole": 0.895,
+    "mouse_bite": 0.871,
+    "open": 0.884,
+    "short": 0.912,
+    "spur": 0.856,
+    "spurious_copper": 0.878
+  }
+}

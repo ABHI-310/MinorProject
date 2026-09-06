@@ -1,0 +1,12 @@
+names:
+- missing_hole
+- mouse_bite
+- open
+- short
+- spur
+- spurious_copper
+nc: 6
+path: D:\Programming\Minor Project\data\pku_market
+test: images/test
+train: images/train
+val: images/val

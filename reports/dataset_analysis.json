@@ -1,0 +1,35 @@
+{
+  "dataset_name": "PKU-Market-PCB",
+  "total_images": 60,
+  "total_annotations": 119,
+  "classes": [
+    "missing_hole",
+    "mouse_bite",
+    "open",
+    "short",
+    "spur",
+    "spurious_copper"
+  ],
+  "class_distribution": {
+    "missing_hole": 23,
+    "mouse_bite": 14,
+    "open": 16,
+    "short": 20,
+    "spur": 28,
+    "spurious_copper": 18
+  },
+  "class_percentages": {
+    "missing_hole": 19.327731092436977,
+    "mouse_bite": 11.76470588235294,
+    "open": 13.445378151260504,
+    "short": 16.80672268907563,
+    "spur": 23.52941176470588,
+    "spurious_copper": 15.126050420168067
+  },
+  "bbox_stats": {
+    "mean_width": 0.06647849579831934,
+    "mean_height": 0.06512606722689077,
+    "mean_aspect_ratio": 1.0802738090855846,
+    "avg_defects_per_image": 1.9833333333333334
+  }
+}

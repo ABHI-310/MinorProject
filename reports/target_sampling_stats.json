@@ -1,0 +1,13 @@
+{
+  "total_target_images": 120,
+  "few_shot_count": 75,
+  "unlabelled_pool_count": 45,
+  "few_shot_class_distribution": {
+    "missing_hole": 50,
+    "mouse_bite": 22,
+    "open": 39,
+    "short": 37,
+    "spur": 25,
+    "spurious_copper": 27
+  }
+}

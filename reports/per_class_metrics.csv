@@ -1,0 +1,7 @@
+class_id,class_name,precision,recall,f1_score,mAP_0.5_0.95
+0,missing_hole,0.0,0.0,0.0,0.0
+1,mouse_bite,0.0,0.0,0.0,0.0
+2,open,0.0,0.0,0.0,0.0
+3,short,0.0,0.0,0.0,0.0
+4,spur,0.0,0.0,0.0,0.0
+5,spurious_copper,0.0,0.0,0.0,0.0

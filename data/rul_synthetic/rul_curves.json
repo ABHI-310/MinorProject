@@ -1,0 +1,9092 @@
+[
+  {
+    "equipment_id": "EQP_000",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.994,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.989,
+        "defects": 0,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.984,
+        "defects": 1,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.978,
+        "defects": 2,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.973,
+        "defects": 1,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.968,
+        "defects": 4,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.962,
+        "defects": 4,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.957,
+        "defects": 4,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.952,
+        "defects": 5,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.947,
+        "defects": 2,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.942,
+        "defects": 3,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.936,
+        "defects": 7,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.931,
+        "defects": 8,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.926,
+        "defects": 5,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.921,
+        "defects": 7,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.916,
+        "defects": 5,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.911,
+        "defects": 5,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.906,
+        "defects": 8,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.901,
+        "defects": 5,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.896,
+        "defects": 6,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.891,
+        "defects": 9,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.886,
+        "defects": 6,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.881,
+        "defects": 7,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.876,
+        "defects": 6,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.872,
+        "defects": 8,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.866,
+        "defects": 9,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.862,
+        "defects": 6,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.858,
+        "defects": 9,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.853,
+        "defects": 8,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.848,
+        "defects": 10,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.843,
+        "defects": 11,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.839,
+        "defects": 9,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.834,
+        "defects": 10,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.829,
+        "defects": 10,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.825,
+        "defects": 9,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.82,
+        "defects": 10,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.816,
+        "defects": 9,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.811,
+        "defects": 10,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.807,
+        "defects": 12,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.802,
+        "defects": 9,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.798,
+        "defects": 11,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.794,
+        "defects": 12,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.789,
+        "defects": 11,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.785,
+        "defects": 12,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.781,
+        "defects": 12,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.777,
+        "defects": 12,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.772,
+        "defects": 16,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.768,
+        "defects": 13,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.764,
+        "defects": 12,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.76,
+        "defects": 15,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.755,
+        "defects": 14,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.751,
+        "defects": 12,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.747,
+        "defects": 13,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.743,
+        "defects": 16,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.739,
+        "defects": 13,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.735,
+        "defects": 15,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.731,
+        "defects": 13,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.727,
+        "defects": 15,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.723,
+        "defects": 16,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.719,
+        "defects": 14,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.715,
+        "defects": 14,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.711,
+        "defects": 17,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.707,
+        "defects": 16,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.704,
+        "defects": 16,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.699,
+        "defects": 17,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.696,
+        "defects": 17,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.692,
+        "defects": 18,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.688,
+        "defects": 19,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.684,
+        "defects": 16,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.681,
+        "defects": 21,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.677,
+        "defects": 18,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.673,
+        "defects": 20,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.67,
+        "defects": 19,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.666,
+        "defects": 20,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.662,
+        "defects": 17,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.658,
+        "defects": 18,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.655,
+        "defects": 18,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.651,
+        "defects": 20,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.648,
+        "defects": 19,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.644,
+        "defects": 19,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.641,
+        "defects": 18,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.637,
+        "defects": 18,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.633,
+        "defects": 19,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.63,
+        "defects": 19,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.627,
+        "defects": 20,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.624,
+        "defects": 20,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.619,
+        "defects": 19,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.616,
+        "defects": 21,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.613,
+        "defects": 21,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.61,
+        "defects": 23,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.607,
+        "defects": 21,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.603,
+        "defects": 21,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.6,
+        "defects": 23,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.597,
+        "defects": 21,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.593,
+        "defects": 21,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.59,
+        "defects": 22,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.587,
+        "defects": 22,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.584,
+        "defects": 23,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.58,
+        "defects": 22,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_001",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.996,
+        "defects": 2,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.992,
+        "defects": 1,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.988,
+        "defects": 3,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.985,
+        "defects": 2,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.981,
+        "defects": 2,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.977,
+        "defects": 4,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.972,
+        "defects": 2,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.969,
+        "defects": 4,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.965,
+        "defects": 3,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.962,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.957,
+        "defects": 2,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.954,
+        "defects": 3,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.95,
+        "defects": 5,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.946,
+        "defects": 6,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.942,
+        "defects": 3,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.939,
+        "defects": 7,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.935,
+        "defects": 3,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.931,
+        "defects": 5,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.928,
+        "defects": 4,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.924,
+        "defects": 4,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.921,
+        "defects": 5,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.917,
+        "defects": 5,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.914,
+        "defects": 5,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.91,
+        "defects": 8,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.906,
+        "defects": 5,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.903,
+        "defects": 6,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.899,
+        "defects": 9,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.895,
+        "defects": 6,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.892,
+        "defects": 6,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.888,
+        "defects": 5,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.885,
+        "defects": 7,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.881,
+        "defects": 8,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.878,
+        "defects": 8,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.875,
+        "defects": 10,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.871,
+        "defects": 7,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.868,
+        "defects": 7,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.864,
+        "defects": 6,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.861,
+        "defects": 11,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.858,
+        "defects": 8,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.854,
+        "defects": 9,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.851,
+        "defects": 9,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.848,
+        "defects": 7,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.844,
+        "defects": 10,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.841,
+        "defects": 8,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.838,
+        "defects": 11,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.834,
+        "defects": 9,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.831,
+        "defects": 11,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.828,
+        "defects": 10,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.825,
+        "defects": 9,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.821,
+        "defects": 13,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.818,
+        "defects": 9,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.815,
+        "defects": 11,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.812,
+        "defects": 11,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.808,
+        "defects": 12,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.805,
+        "defects": 10,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.802,
+        "defects": 13,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.799,
+        "defects": 11,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.796,
+        "defects": 11,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.793,
+        "defects": 11,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.79,
+        "defects": 13,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.787,
+        "defects": 15,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.784,
+        "defects": 13,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.781,
+        "defects": 11,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.777,
+        "defects": 14,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.774,
+        "defects": 11,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.771,
+        "defects": 12,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.768,
+        "defects": 13,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.765,
+        "defects": 13,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.762,
+        "defects": 13,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.759,
+        "defects": 13,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.756,
+        "defects": 14,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.753,
+        "defects": 14,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.75,
+        "defects": 15,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.747,
+        "defects": 15,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.744,
+        "defects": 14,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.741,
+        "defects": 14,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.738,
+        "defects": 16,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.736,
+        "defects": 17,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.733,
+        "defects": 15,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.729,
+        "defects": 14,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.727,
+        "defects": 13,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.724,
+        "defects": 14,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.722,
+        "defects": 15,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.719,
+        "defects": 15,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.716,
+        "defects": 15,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.712,
+        "defects": 14,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.71,
+        "defects": 15,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.706,
+        "defects": 15,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.704,
+        "defects": 14,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.701,
+        "defects": 16,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.698,
+        "defects": 18,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.696,
+        "defects": 17,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.694,
+        "defects": 15,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.69,
+        "defects": 17,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.688,
+        "defects": 18,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.685,
+        "defects": 16,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.682,
+        "defects": 20,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.68,
+        "defects": 18,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.677,
+        "defects": 18,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_002",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.995,
+        "defects": 2,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.991,
+        "defects": 2,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.987,
+        "defects": 3,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.982,
+        "defects": 4,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.977,
+        "defects": 2,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.973,
+        "defects": 3,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.968,
+        "defects": 2,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.964,
+        "defects": 1,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.96,
+        "defects": 3,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.955,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.95,
+        "defects": 4,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.947,
+        "defects": 3,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.941,
+        "defects": 3,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.937,
+        "defects": 8,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.933,
+        "defects": 5,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.929,
+        "defects": 4,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.924,
+        "defects": 5,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.92,
+        "defects": 7,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.916,
+        "defects": 8,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.912,
+        "defects": 7,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.908,
+        "defects": 8,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.903,
+        "defects": 5,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.899,
+        "defects": 8,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.895,
+        "defects": 6,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.891,
+        "defects": 9,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.887,
+        "defects": 6,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.883,
+        "defects": 6,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.879,
+        "defects": 10,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.874,
+        "defects": 7,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.87,
+        "defects": 9,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.867,
+        "defects": 8,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.862,
+        "defects": 6,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.858,
+        "defects": 11,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.855,
+        "defects": 10,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.851,
+        "defects": 9,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.847,
+        "defects": 9,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.843,
+        "defects": 9,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.839,
+        "defects": 10,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.835,
+        "defects": 10,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.831,
+        "defects": 9,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.827,
+        "defects": 9,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.824,
+        "defects": 10,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.819,
+        "defects": 13,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.816,
+        "defects": 13,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.812,
+        "defects": 11,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.808,
+        "defects": 11,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.805,
+        "defects": 12,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.801,
+        "defects": 10,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.797,
+        "defects": 13,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.793,
+        "defects": 11,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.79,
+        "defects": 10,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.786,
+        "defects": 12,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.782,
+        "defects": 11,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.779,
+        "defects": 12,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.776,
+        "defects": 12,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.772,
+        "defects": 14,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.768,
+        "defects": 13,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.765,
+        "defects": 12,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.761,
+        "defects": 15,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.758,
+        "defects": 14,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.754,
+        "defects": 13,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.751,
+        "defects": 13,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.748,
+        "defects": 16,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.744,
+        "defects": 15,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.74,
+        "defects": 13,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.737,
+        "defects": 15,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.733,
+        "defects": 15,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.73,
+        "defects": 16,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.727,
+        "defects": 14,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.724,
+        "defects": 15,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.72,
+        "defects": 16,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.717,
+        "defects": 18,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.713,
+        "defects": 16,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.71,
+        "defects": 17,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.707,
+        "defects": 16,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.704,
+        "defects": 14,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.7,
+        "defects": 15,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.697,
+        "defects": 17,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.693,
+        "defects": 17,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.691,
+        "defects": 17,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.687,
+        "defects": 16,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.684,
+        "defects": 18,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.681,
+        "defects": 16,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.678,
+        "defects": 18,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.675,
+        "defects": 19,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.672,
+        "defects": 16,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.669,
+        "defects": 19,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.665,
+        "defects": 18,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.663,
+        "defects": 19,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.66,
+        "defects": 19,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.656,
+        "defects": 17,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.653,
+        "defects": 18,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.65,
+        "defects": 18,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.647,
+        "defects": 20,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.644,
+        "defects": 19,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.642,
+        "defects": 17,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.639,
+        "defects": 20,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.636,
+        "defects": 21,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.632,
+        "defects": 19,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_003",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.995,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.99,
+        "defects": 4,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.984,
+        "defects": 2,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.979,
+        "defects": 5,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.974,
+        "defects": 1,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.968,
+        "defects": 1,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.964,
+        "defects": 2,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.958,
+        "defects": 4,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.953,
+        "defects": 5,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.948,
+        "defects": 5,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.943,
+        "defects": 5,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.938,
+        "defects": 4,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.933,
+        "defects": 5,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.928,
+        "defects": 4,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.923,
+        "defects": 5,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.918,
+        "defects": 6,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.914,
+        "defects": 6,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.909,
+        "defects": 7,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.904,
+        "defects": 7,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.899,
+        "defects": 9,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.894,
+        "defects": 6,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.89,
+        "defects": 7,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.885,
+        "defects": 6,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.88,
+        "defects": 7,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.875,
+        "defects": 10,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.871,
+        "defects": 8,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.866,
+        "defects": 8,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.862,
+        "defects": 7,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.857,
+        "defects": 8,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.853,
+        "defects": 7,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.848,
+        "defects": 8,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.844,
+        "defects": 11,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.839,
+        "defects": 9,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.835,
+        "defects": 11,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.83,
+        "defects": 8,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.826,
+        "defects": 12,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.822,
+        "defects": 11,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.817,
+        "defects": 10,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.813,
+        "defects": 11,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.809,
+        "defects": 11,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.804,
+        "defects": 12,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.8,
+        "defects": 11,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.796,
+        "defects": 14,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.791,
+        "defects": 10,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.787,
+        "defects": 10,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.783,
+        "defects": 11,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.779,
+        "defects": 12,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.775,
+        "defects": 13,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.771,
+        "defects": 15,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.767,
+        "defects": 12,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.763,
+        "defects": 13,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.759,
+        "defects": 14,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.755,
+        "defects": 14,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.751,
+        "defects": 14,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.746,
+        "defects": 14,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.743,
+        "defects": 15,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.739,
+        "defects": 13,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.735,
+        "defects": 16,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.731,
+        "defects": 16,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.727,
+        "defects": 14,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.723,
+        "defects": 13,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.719,
+        "defects": 15,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.716,
+        "defects": 16,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.712,
+        "defects": 16,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.708,
+        "defects": 17,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.704,
+        "defects": 18,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.701,
+        "defects": 15,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.697,
+        "defects": 17,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.693,
+        "defects": 19,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.689,
+        "defects": 17,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.686,
+        "defects": 17,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.682,
+        "defects": 18,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.679,
+        "defects": 20,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.675,
+        "defects": 18,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.671,
+        "defects": 18,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.668,
+        "defects": 19,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.664,
+        "defects": 19,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.661,
+        "defects": 20,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.657,
+        "defects": 19,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.654,
+        "defects": 18,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.65,
+        "defects": 21,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.647,
+        "defects": 19,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.643,
+        "defects": 18,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.64,
+        "defects": 19,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.636,
+        "defects": 20,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.633,
+        "defects": 18,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.63,
+        "defects": 20,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.626,
+        "defects": 20,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.623,
+        "defects": 20,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.62,
+        "defects": 20,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.616,
+        "defects": 21,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.613,
+        "defects": 23,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.61,
+        "defects": 19,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.607,
+        "defects": 20,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.604,
+        "defects": 20,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.601,
+        "defects": 23,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.598,
+        "defects": 22,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.594,
+        "defects": 22,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.591,
+        "defects": 25,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_004",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.994,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.987,
+        "defects": 2,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.981,
+        "defects": 4,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.974,
+        "defects": 3,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.968,
+        "defects": 3,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.962,
+        "defects": 3,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.955,
+        "defects": 4,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.949,
+        "defects": 6,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.943,
+        "defects": 5,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.937,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.931,
+        "defects": 6,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.925,
+        "defects": 5,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.919,
+        "defects": 5,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.913,
+        "defects": 6,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.907,
+        "defects": 4,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.901,
+        "defects": 5,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.895,
+        "defects": 8,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.889,
+        "defects": 6,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.884,
+        "defects": 8,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.878,
+        "defects": 8,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.872,
+        "defects": 8,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.866,
+        "defects": 7,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.861,
+        "defects": 7,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.855,
+        "defects": 7,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.85,
+        "defects": 9,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.844,
+        "defects": 7,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.839,
+        "defects": 9,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.833,
+        "defects": 10,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.828,
+        "defects": 9,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.823,
+        "defects": 9,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.817,
+        "defects": 12,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.812,
+        "defects": 11,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.806,
+        "defects": 10,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.801,
+        "defects": 12,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.796,
+        "defects": 10,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.791,
+        "defects": 12,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.786,
+        "defects": 11,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.781,
+        "defects": 13,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.776,
+        "defects": 14,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.771,
+        "defects": 14,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.765,
+        "defects": 11,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.761,
+        "defects": 14,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.756,
+        "defects": 15,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.751,
+        "defects": 13,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.746,
+        "defects": 12,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.741,
+        "defects": 12,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.736,
+        "defects": 14,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.731,
+        "defects": 15,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.727,
+        "defects": 16,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.722,
+        "defects": 15,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.717,
+        "defects": 15,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.713,
+        "defects": 15,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.708,
+        "defects": 15,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.704,
+        "defects": 16,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.699,
+        "defects": 16,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.694,
+        "defects": 16,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.69,
+        "defects": 20,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.685,
+        "defects": 17,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.681,
+        "defects": 18,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.676,
+        "defects": 17,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.672,
+        "defects": 18,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.668,
+        "defects": 18,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.663,
+        "defects": 18,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.659,
+        "defects": 18,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.655,
+        "defects": 18,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.65,
+        "defects": 18,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.646,
+        "defects": 19,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.642,
+        "defects": 19,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.638,
+        "defects": 21,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.634,
+        "defects": 22,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.63,
+        "defects": 23,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.626,
+        "defects": 19,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.622,
+        "defects": 19,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.618,
+        "defects": 19,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.614,
+        "defects": 19,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.609,
+        "defects": 20,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.606,
+        "defects": 20,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.602,
+        "defects": 22,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.598,
+        "defects": 21,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.594,
+        "defects": 24,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.59,
+        "defects": 21,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.586,
+        "defects": 21,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.582,
+        "defects": 23,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.579,
+        "defects": 22,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.575,
+        "defects": 24,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.571,
+        "defects": 21,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.567,
+        "defects": 23,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.564,
+        "defects": 25,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.56,
+        "defects": 22,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.556,
+        "defects": 24,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.553,
+        "defects": 27,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.549,
+        "defects": 28,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.546,
+        "defects": 25,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.542,
+        "defects": 25,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.538,
+        "defects": 27,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.535,
+        "defects": 24,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.532,
+        "defects": 25,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.528,
+        "defects": 26,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.525,
+        "defects": 27,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_005",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.994,
+        "defects": 2,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.989,
+        "defects": 4,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.983,
+        "defects": 3,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.977,
+        "defects": 2,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.972,
+        "defects": 3,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.966,
+        "defects": 3,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.96,
+        "defects": 3,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.955,
+        "defects": 4,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.949,
+        "defects": 4,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.944,
+        "defects": 5,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.938,
+        "defects": 5,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.933,
+        "defects": 3,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.928,
+        "defects": 7,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.922,
+        "defects": 4,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.917,
+        "defects": 6,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.911,
+        "defects": 6,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.906,
+        "defects": 6,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.901,
+        "defects": 6,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.896,
+        "defects": 8,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.891,
+        "defects": 9,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.885,
+        "defects": 11,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.88,
+        "defects": 5,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.875,
+        "defects": 6,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.87,
+        "defects": 8,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.865,
+        "defects": 7,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.86,
+        "defects": 8,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.855,
+        "defects": 13,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.851,
+        "defects": 11,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.846,
+        "defects": 10,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.841,
+        "defects": 8,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.836,
+        "defects": 10,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.831,
+        "defects": 11,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.826,
+        "defects": 10,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.821,
+        "defects": 13,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.817,
+        "defects": 11,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.812,
+        "defects": 13,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.807,
+        "defects": 10,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.803,
+        "defects": 11,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.798,
+        "defects": 11,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.793,
+        "defects": 11,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.789,
+        "defects": 12,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.784,
+        "defects": 12,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.78,
+        "defects": 12,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.775,
+        "defects": 16,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.771,
+        "defects": 14,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.766,
+        "defects": 14,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.762,
+        "defects": 13,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.757,
+        "defects": 12,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.753,
+        "defects": 14,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.749,
+        "defects": 13,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.745,
+        "defects": 13,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.74,
+        "defects": 14,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.736,
+        "defects": 17,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.731,
+        "defects": 16,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.727,
+        "defects": 15,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.723,
+        "defects": 14,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.719,
+        "defects": 15,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.715,
+        "defects": 16,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.711,
+        "defects": 14,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.707,
+        "defects": 15,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.703,
+        "defects": 14,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.698,
+        "defects": 17,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.694,
+        "defects": 19,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.691,
+        "defects": 15,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.686,
+        "defects": 17,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.683,
+        "defects": 18,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.679,
+        "defects": 19,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.674,
+        "defects": 18,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.671,
+        "defects": 17,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.667,
+        "defects": 18,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.663,
+        "defects": 19,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.659,
+        "defects": 19,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.655,
+        "defects": 20,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.652,
+        "defects": 18,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.648,
+        "defects": 18,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.644,
+        "defects": 21,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.64,
+        "defects": 20,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.637,
+        "defects": 20,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.633,
+        "defects": 20,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.629,
+        "defects": 20,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.626,
+        "defects": 19,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.622,
+        "defects": 22,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.619,
+        "defects": 19,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.615,
+        "defects": 21,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.611,
+        "defects": 21,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.608,
+        "defects": 20,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.604,
+        "defects": 19,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.601,
+        "defects": 22,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.597,
+        "defects": 21,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.594,
+        "defects": 23,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.59,
+        "defects": 22,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.587,
+        "defects": 22,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.584,
+        "defects": 20,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.58,
+        "defects": 22,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.577,
+        "defects": 23,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.574,
+        "defects": 22,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.571,
+        "defects": 22,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.567,
+        "defects": 23,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.564,
+        "defects": 22,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_006",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.994,
+        "defects": 0,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.988,
+        "defects": 1,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.983,
+        "defects": 2,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.977,
+        "defects": 4,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.971,
+        "defects": 4,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.966,
+        "defects": 2,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.96,
+        "defects": 5,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.955,
+        "defects": 8,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.949,
+        "defects": 5,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.944,
+        "defects": 6,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.938,
+        "defects": 8,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.933,
+        "defects": 6,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.927,
+        "defects": 7,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.922,
+        "defects": 6,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.917,
+        "defects": 7,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.911,
+        "defects": 4,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.906,
+        "defects": 6,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.901,
+        "defects": 4,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.896,
+        "defects": 10,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.89,
+        "defects": 8,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.885,
+        "defects": 5,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.88,
+        "defects": 8,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.875,
+        "defects": 9,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.87,
+        "defects": 7,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.865,
+        "defects": 10,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.86,
+        "defects": 8,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.855,
+        "defects": 10,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.85,
+        "defects": 9,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.845,
+        "defects": 9,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.84,
+        "defects": 10,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.835,
+        "defects": 11,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.83,
+        "defects": 8,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.826,
+        "defects": 11,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.821,
+        "defects": 10,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.816,
+        "defects": 11,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.812,
+        "defects": 12,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.807,
+        "defects": 9,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.802,
+        "defects": 13,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.797,
+        "defects": 11,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.793,
+        "defects": 14,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.789,
+        "defects": 10,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.784,
+        "defects": 11,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.779,
+        "defects": 14,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.774,
+        "defects": 13,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.77,
+        "defects": 13,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.766,
+        "defects": 14,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.761,
+        "defects": 15,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.757,
+        "defects": 15,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.752,
+        "defects": 13,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.748,
+        "defects": 13,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.744,
+        "defects": 13,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.739,
+        "defects": 16,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.735,
+        "defects": 16,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.731,
+        "defects": 17,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.727,
+        "defects": 18,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.723,
+        "defects": 15,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.718,
+        "defects": 20,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.714,
+        "defects": 14,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.71,
+        "defects": 14,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.706,
+        "defects": 16,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.702,
+        "defects": 16,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.698,
+        "defects": 19,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.694,
+        "defects": 17,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.69,
+        "defects": 17,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.686,
+        "defects": 18,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.682,
+        "defects": 17,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.678,
+        "defects": 16,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.674,
+        "defects": 16,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.67,
+        "defects": 16,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.666,
+        "defects": 20,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.663,
+        "defects": 16,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.659,
+        "defects": 19,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.655,
+        "defects": 18,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.651,
+        "defects": 18,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.648,
+        "defects": 18,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.643,
+        "defects": 18,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.64,
+        "defects": 21,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.636,
+        "defects": 18,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.633,
+        "defects": 19,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.629,
+        "defects": 21,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.625,
+        "defects": 20,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.621,
+        "defects": 21,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.618,
+        "defects": 21,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.615,
+        "defects": 20,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.611,
+        "defects": 22,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.607,
+        "defects": 21,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.604,
+        "defects": 23,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.6,
+        "defects": 22,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.596,
+        "defects": 24,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.594,
+        "defects": 23,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.59,
+        "defects": 22,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.586,
+        "defects": 22,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.584,
+        "defects": 21,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.58,
+        "defects": 24,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.576,
+        "defects": 26,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.573,
+        "defects": 24,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.57,
+        "defects": 23,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.566,
+        "defects": 22,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.563,
+        "defects": 23,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_007",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.995,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.991,
+        "defects": 3,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.987,
+        "defects": 0,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.982,
+        "defects": 0,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.978,
+        "defects": 2,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.973,
+        "defects": 3,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.969,
+        "defects": 4,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.965,
+        "defects": 1,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.96,
+        "defects": 2,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.956,
+        "defects": 3,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.952,
+        "defects": 3,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.948,
+        "defects": 3,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.943,
+        "defects": 3,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.939,
+        "defects": 4,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.935,
+        "defects": 6,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.93,
+        "defects": 5,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.926,
+        "defects": 3,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.922,
+        "defects": 5,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.918,
+        "defects": 5,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.914,
+        "defects": 7,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.91,
+        "defects": 6,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.906,
+        "defects": 5,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.902,
+        "defects": 5,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.898,
+        "defects": 6,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.894,
+        "defects": 8,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.89,
+        "defects": 5,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.885,
+        "defects": 6,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.881,
+        "defects": 8,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.877,
+        "defects": 7,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.874,
+        "defects": 7,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.87,
+        "defects": 8,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.866,
+        "defects": 7,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.862,
+        "defects": 6,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.858,
+        "defects": 11,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.854,
+        "defects": 10,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.851,
+        "defects": 9,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.847,
+        "defects": 8,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.843,
+        "defects": 7,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.839,
+        "defects": 10,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.835,
+        "defects": 10,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.831,
+        "defects": 11,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.828,
+        "defects": 12,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.824,
+        "defects": 9,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.82,
+        "defects": 10,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.817,
+        "defects": 10,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.813,
+        "defects": 11,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.809,
+        "defects": 9,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.806,
+        "defects": 11,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.802,
+        "defects": 11,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.798,
+        "defects": 11,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.795,
+        "defects": 11,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.791,
+        "defects": 14,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.788,
+        "defects": 14,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.785,
+        "defects": 13,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.781,
+        "defects": 14,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.777,
+        "defects": 12,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.774,
+        "defects": 15,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.77,
+        "defects": 12,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.767,
+        "defects": 12,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.763,
+        "defects": 11,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.76,
+        "defects": 14,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.757,
+        "defects": 14,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.753,
+        "defects": 15,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.75,
+        "defects": 15,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.746,
+        "defects": 13,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.743,
+        "defects": 15,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.74,
+        "defects": 18,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.736,
+        "defects": 14,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.733,
+        "defects": 13,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.73,
+        "defects": 15,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.727,
+        "defects": 16,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.724,
+        "defects": 16,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.72,
+        "defects": 15,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.717,
+        "defects": 14,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.714,
+        "defects": 16,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.71,
+        "defects": 18,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.707,
+        "defects": 15,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.704,
+        "defects": 17,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.701,
+        "defects": 15,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.697,
+        "defects": 16,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.694,
+        "defects": 18,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.691,
+        "defects": 17,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.688,
+        "defects": 17,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.685,
+        "defects": 16,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.682,
+        "defects": 15,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.679,
+        "defects": 18,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.676,
+        "defects": 22,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.673,
+        "defects": 17,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.67,
+        "defects": 17,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.667,
+        "defects": 16,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.664,
+        "defects": 21,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.661,
+        "defects": 17,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.659,
+        "defects": 20,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.655,
+        "defects": 19,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.652,
+        "defects": 17,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.649,
+        "defects": 17,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.647,
+        "defects": 20,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.643,
+        "defects": 20,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.64,
+        "defects": 18,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_008",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.992,
+        "defects": 2,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.984,
+        "defects": 3,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.976,
+        "defects": 8,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.968,
+        "defects": 4,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.96,
+        "defects": 5,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.952,
+        "defects": 4,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.945,
+        "defects": 3,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.937,
+        "defects": 7,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.929,
+        "defects": 5,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.921,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.914,
+        "defects": 9,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.906,
+        "defects": 7,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.899,
+        "defects": 8,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.892,
+        "defects": 6,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.884,
+        "defects": 11,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.877,
+        "defects": 8,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.87,
+        "defects": 8,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.863,
+        "defects": 9,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.856,
+        "defects": 8,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.849,
+        "defects": 10,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.842,
+        "defects": 10,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.835,
+        "defects": 11,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.828,
+        "defects": 8,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.822,
+        "defects": 9,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.815,
+        "defects": 12,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.808,
+        "defects": 11,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.802,
+        "defects": 14,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.795,
+        "defects": 10,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.789,
+        "defects": 12,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.782,
+        "defects": 13,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.776,
+        "defects": 13,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.769,
+        "defects": 12,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.763,
+        "defects": 13,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.757,
+        "defects": 14,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.751,
+        "defects": 14,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.745,
+        "defects": 14,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.739,
+        "defects": 13,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.732,
+        "defects": 16,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.727,
+        "defects": 14,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.721,
+        "defects": 13,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.715,
+        "defects": 16,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.709,
+        "defects": 16,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.703,
+        "defects": 16,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.698,
+        "defects": 17,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.692,
+        "defects": 15,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.686,
+        "defects": 20,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.681,
+        "defects": 16,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.675,
+        "defects": 17,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.67,
+        "defects": 18,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.664,
+        "defects": 17,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.659,
+        "defects": 18,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.653,
+        "defects": 20,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.648,
+        "defects": 17,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.643,
+        "defects": 19,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.637,
+        "defects": 21,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.632,
+        "defects": 21,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.627,
+        "defects": 18,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.622,
+        "defects": 20,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.617,
+        "defects": 22,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.612,
+        "defects": 20,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.607,
+        "defects": 21,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.602,
+        "defects": 25,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.597,
+        "defects": 22,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.592,
+        "defects": 22,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.587,
+        "defects": 23,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.582,
+        "defects": 24,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.578,
+        "defects": 23,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.573,
+        "defects": 24,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.568,
+        "defects": 22,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.564,
+        "defects": 25,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.559,
+        "defects": 25,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.555,
+        "defects": 26,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.55,
+        "defects": 27,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.546,
+        "defects": 23,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.541,
+        "defects": 23,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.537,
+        "defects": 28,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.532,
+        "defects": 25,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.528,
+        "defects": 25,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.524,
+        "defects": 24,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.52,
+        "defects": 30,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.515,
+        "defects": 26,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.511,
+        "defects": 24,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.507,
+        "defects": 27,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.503,
+        "defects": 25,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.499,
+        "defects": 29,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.494,
+        "defects": 25,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.491,
+        "defects": 26,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.487,
+        "defects": 28,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.482,
+        "defects": 25,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.479,
+        "defects": 27,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.475,
+        "defects": 26,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.471,
+        "defects": 29,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.467,
+        "defects": 27,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.463,
+        "defects": 29,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.459,
+        "defects": 29,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.456,
+        "defects": 28,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.452,
+        "defects": 28,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.448,
+        "defects": 27,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.445,
+        "defects": 31,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_009",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.993,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.986,
+        "defects": 2,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.979,
+        "defects": 2,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.971,
+        "defects": 5,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.964,
+        "defects": 1,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.958,
+        "defects": 4,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.951,
+        "defects": 6,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.944,
+        "defects": 3,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.938,
+        "defects": 7,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.93,
+        "defects": 7,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.924,
+        "defects": 6,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.917,
+        "defects": 7,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.911,
+        "defects": 5,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.904,
+        "defects": 5,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.898,
+        "defects": 6,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.892,
+        "defects": 8,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.885,
+        "defects": 6,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.879,
+        "defects": 7,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.872,
+        "defects": 8,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.866,
+        "defects": 6,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.86,
+        "defects": 8,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.853,
+        "defects": 8,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.848,
+        "defects": 12,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.841,
+        "defects": 11,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.836,
+        "defects": 10,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.829,
+        "defects": 8,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.823,
+        "defects": 12,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.817,
+        "defects": 12,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.811,
+        "defects": 12,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.806,
+        "defects": 10,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.8,
+        "defects": 12,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.794,
+        "defects": 13,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.788,
+        "defects": 12,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.783,
+        "defects": 13,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.778,
+        "defects": 13,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.771,
+        "defects": 12,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.766,
+        "defects": 13,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.76,
+        "defects": 12,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.755,
+        "defects": 15,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.75,
+        "defects": 14,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.744,
+        "defects": 14,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.739,
+        "defects": 14,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.734,
+        "defects": 14,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.728,
+        "defects": 14,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.723,
+        "defects": 17,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.718,
+        "defects": 16,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.713,
+        "defects": 19,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.708,
+        "defects": 16,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.703,
+        "defects": 17,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.698,
+        "defects": 17,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.692,
+        "defects": 17,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.687,
+        "defects": 16,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.683,
+        "defects": 16,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.678,
+        "defects": 19,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.673,
+        "defects": 17,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.668,
+        "defects": 17,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.664,
+        "defects": 19,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.658,
+        "defects": 21,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.654,
+        "defects": 18,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.648,
+        "defects": 20,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.645,
+        "defects": 22,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.64,
+        "defects": 22,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.634,
+        "defects": 18,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.631,
+        "defects": 18,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.626,
+        "defects": 19,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.621,
+        "defects": 20,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.617,
+        "defects": 22,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.613,
+        "defects": 21,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.609,
+        "defects": 22,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.604,
+        "defects": 23,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.6,
+        "defects": 23,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.595,
+        "defects": 23,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.591,
+        "defects": 24,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.587,
+        "defects": 22,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.582,
+        "defects": 26,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.579,
+        "defects": 23,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.574,
+        "defects": 23,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.57,
+        "defects": 22,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.567,
+        "defects": 22,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.562,
+        "defects": 24,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.558,
+        "defects": 26,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.554,
+        "defects": 22,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.55,
+        "defects": 23,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.546,
+        "defects": 22,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.542,
+        "defects": 25,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.538,
+        "defects": 27,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.535,
+        "defects": 25,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.531,
+        "defects": 24,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.527,
+        "defects": 23,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.523,
+        "defects": 23,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.519,
+        "defects": 24,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.515,
+        "defects": 28,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.512,
+        "defects": 26,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.508,
+        "defects": 29,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.504,
+        "defects": 24,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.501,
+        "defects": 27,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.497,
+        "defects": 28,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.494,
+        "defects": 27,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.49,
+        "defects": 26,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_010",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.995,
+        "defects": 2,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.99,
+        "defects": 1,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.985,
+        "defects": 3,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.98,
+        "defects": 1,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.975,
+        "defects": 4,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.969,
+        "defects": 2,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.964,
+        "defects": 1,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.96,
+        "defects": 11,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.955,
+        "defects": 2,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.95,
+        "defects": 5,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.945,
+        "defects": 4,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.94,
+        "defects": 2,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.935,
+        "defects": 9,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.93,
+        "defects": 6,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.925,
+        "defects": 4,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.921,
+        "defects": 8,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.916,
+        "defects": 7,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.911,
+        "defects": 5,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.907,
+        "defects": 5,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.902,
+        "defects": 5,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.897,
+        "defects": 5,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.893,
+        "defects": 7,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.888,
+        "defects": 6,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.883,
+        "defects": 8,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.879,
+        "defects": 8,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.874,
+        "defects": 9,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.87,
+        "defects": 10,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.865,
+        "defects": 10,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.861,
+        "defects": 9,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.856,
+        "defects": 10,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.852,
+        "defects": 8,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.847,
+        "defects": 8,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.843,
+        "defects": 11,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.839,
+        "defects": 9,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.834,
+        "defects": 9,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.83,
+        "defects": 10,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.826,
+        "defects": 12,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.821,
+        "defects": 8,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.817,
+        "defects": 13,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.813,
+        "defects": 11,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.809,
+        "defects": 12,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.805,
+        "defects": 9,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.801,
+        "defects": 14,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.796,
+        "defects": 11,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.792,
+        "defects": 12,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.788,
+        "defects": 12,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.784,
+        "defects": 14,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.78,
+        "defects": 14,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.776,
+        "defects": 12,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.772,
+        "defects": 14,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.768,
+        "defects": 13,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.764,
+        "defects": 14,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.76,
+        "defects": 11,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.756,
+        "defects": 14,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.752,
+        "defects": 14,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.748,
+        "defects": 14,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.745,
+        "defects": 13,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.741,
+        "defects": 14,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.737,
+        "defects": 14,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.733,
+        "defects": 16,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.729,
+        "defects": 17,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.726,
+        "defects": 17,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.722,
+        "defects": 16,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.718,
+        "defects": 17,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.714,
+        "defects": 18,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.711,
+        "defects": 16,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.707,
+        "defects": 20,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.703,
+        "defects": 16,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.7,
+        "defects": 16,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.696,
+        "defects": 19,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.692,
+        "defects": 18,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.689,
+        "defects": 16,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.685,
+        "defects": 18,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.682,
+        "defects": 17,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.679,
+        "defects": 20,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.675,
+        "defects": 19,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.672,
+        "defects": 17,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.668,
+        "defects": 20,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.665,
+        "defects": 18,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.661,
+        "defects": 17,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.658,
+        "defects": 18,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.654,
+        "defects": 17,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.651,
+        "defects": 21,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.647,
+        "defects": 18,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.644,
+        "defects": 19,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.641,
+        "defects": 20,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.638,
+        "defects": 20,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.634,
+        "defects": 20,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.631,
+        "defects": 18,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.628,
+        "defects": 21,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.624,
+        "defects": 22,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.622,
+        "defects": 18,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.618,
+        "defects": 20,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.615,
+        "defects": 19,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.612,
+        "defects": 22,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.609,
+        "defects": 21,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.606,
+        "defects": 20,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.602,
+        "defects": 22,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.599,
+        "defects": 22,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_011",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.994,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.988,
+        "defects": 2,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.983,
+        "defects": 1,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.977,
+        "defects": 7,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.971,
+        "defects": 7,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.965,
+        "defects": 1,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.96,
+        "defects": 4,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.954,
+        "defects": 4,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.949,
+        "defects": 3,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.943,
+        "defects": 3,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.938,
+        "defects": 4,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.932,
+        "defects": 6,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.927,
+        "defects": 5,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.921,
+        "defects": 3,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.916,
+        "defects": 4,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.911,
+        "defects": 7,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.905,
+        "defects": 5,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.9,
+        "defects": 5,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.895,
+        "defects": 6,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.89,
+        "defects": 6,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.884,
+        "defects": 6,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.879,
+        "defects": 8,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.874,
+        "defects": 8,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.869,
+        "defects": 8,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.864,
+        "defects": 9,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.859,
+        "defects": 11,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.854,
+        "defects": 8,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.849,
+        "defects": 8,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.844,
+        "defects": 7,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.839,
+        "defects": 9,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.834,
+        "defects": 10,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.829,
+        "defects": 9,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.825,
+        "defects": 12,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.82,
+        "defects": 14,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.815,
+        "defects": 9,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.81,
+        "defects": 14,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.805,
+        "defects": 10,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.801,
+        "defects": 11,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.796,
+        "defects": 13,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.791,
+        "defects": 13,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.787,
+        "defects": 10,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.782,
+        "defects": 12,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.778,
+        "defects": 11,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.773,
+        "defects": 14,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.769,
+        "defects": 14,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.764,
+        "defects": 13,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.76,
+        "defects": 15,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.755,
+        "defects": 13,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.751,
+        "defects": 14,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.746,
+        "defects": 13,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.742,
+        "defects": 15,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.738,
+        "defects": 16,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.733,
+        "defects": 14,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.729,
+        "defects": 16,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.725,
+        "defects": 21,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.721,
+        "defects": 15,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.717,
+        "defects": 16,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.713,
+        "defects": 14,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.708,
+        "defects": 15,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.704,
+        "defects": 15,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.7,
+        "defects": 17,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.696,
+        "defects": 18,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.692,
+        "defects": 15,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.688,
+        "defects": 18,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.684,
+        "defects": 15,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.68,
+        "defects": 19,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.676,
+        "defects": 21,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.672,
+        "defects": 18,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.668,
+        "defects": 18,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.664,
+        "defects": 18,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.66,
+        "defects": 17,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.656,
+        "defects": 20,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.652,
+        "defects": 20,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.649,
+        "defects": 18,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.645,
+        "defects": 21,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.641,
+        "defects": 18,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.638,
+        "defects": 20,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.634,
+        "defects": 18,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.63,
+        "defects": 22,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.626,
+        "defects": 21,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.623,
+        "defects": 20,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.619,
+        "defects": 23,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.616,
+        "defects": 23,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.612,
+        "defects": 21,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.608,
+        "defects": 20,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.605,
+        "defects": 20,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.601,
+        "defects": 20,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.598,
+        "defects": 21,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.594,
+        "defects": 21,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.591,
+        "defects": 23,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.587,
+        "defects": 20,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.584,
+        "defects": 20,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.58,
+        "defects": 21,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.577,
+        "defects": 21,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.574,
+        "defects": 23,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.57,
+        "defects": 24,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.567,
+        "defects": 24,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.564,
+        "defects": 23,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.56,
+        "defects": 22,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_012",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.996,
+        "defects": 3,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.992,
+        "defects": 3,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.988,
+        "defects": 4,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.984,
+        "defects": 0,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.98,
+        "defects": 4,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.976,
+        "defects": 2,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.972,
+        "defects": 3,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.968,
+        "defects": 1,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.964,
+        "defects": 3,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.96,
+        "defects": 7,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.956,
+        "defects": 5,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.953,
+        "defects": 5,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.949,
+        "defects": 4,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.945,
+        "defects": 3,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.941,
+        "defects": 3,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.937,
+        "defects": 3,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.934,
+        "defects": 5,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.93,
+        "defects": 8,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.926,
+        "defects": 4,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.922,
+        "defects": 4,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.918,
+        "defects": 7,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.915,
+        "defects": 7,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.911,
+        "defects": 6,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.908,
+        "defects": 5,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.904,
+        "defects": 5,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.9,
+        "defects": 4,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.897,
+        "defects": 9,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.893,
+        "defects": 7,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.889,
+        "defects": 9,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.885,
+        "defects": 8,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.882,
+        "defects": 7,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.879,
+        "defects": 9,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.875,
+        "defects": 7,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.871,
+        "defects": 7,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.868,
+        "defects": 11,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.865,
+        "defects": 8,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.861,
+        "defects": 8,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.858,
+        "defects": 9,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.854,
+        "defects": 7,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.851,
+        "defects": 9,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.847,
+        "defects": 8,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.844,
+        "defects": 7,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.84,
+        "defects": 7,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.837,
+        "defects": 9,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.834,
+        "defects": 8,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.83,
+        "defects": 9,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.827,
+        "defects": 10,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.824,
+        "defects": 12,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.82,
+        "defects": 8,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.817,
+        "defects": 11,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.814,
+        "defects": 10,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.811,
+        "defects": 11,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.807,
+        "defects": 12,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.804,
+        "defects": 10,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.801,
+        "defects": 10,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.797,
+        "defects": 11,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.794,
+        "defects": 11,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.791,
+        "defects": 10,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.788,
+        "defects": 11,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.784,
+        "defects": 10,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.781,
+        "defects": 12,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.778,
+        "defects": 12,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.776,
+        "defects": 13,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.772,
+        "defects": 13,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.769,
+        "defects": 15,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.765,
+        "defects": 15,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.763,
+        "defects": 14,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.76,
+        "defects": 13,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.756,
+        "defects": 14,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.753,
+        "defects": 15,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.75,
+        "defects": 14,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.747,
+        "defects": 13,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.744,
+        "defects": 12,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.742,
+        "defects": 14,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.738,
+        "defects": 15,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.735,
+        "defects": 16,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.733,
+        "defects": 14,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.73,
+        "defects": 15,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.727,
+        "defects": 16,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.723,
+        "defects": 15,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.72,
+        "defects": 14,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.718,
+        "defects": 16,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.715,
+        "defects": 16,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.712,
+        "defects": 15,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.709,
+        "defects": 15,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.706,
+        "defects": 15,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.703,
+        "defects": 17,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.7,
+        "defects": 16,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.698,
+        "defects": 19,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.695,
+        "defects": 15,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.692,
+        "defects": 16,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.689,
+        "defects": 16,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.687,
+        "defects": 16,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.684,
+        "defects": 16,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.681,
+        "defects": 16,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.678,
+        "defects": 20,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.676,
+        "defects": 18,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.673,
+        "defects": 18,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.67,
+        "defects": 16,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_013",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.997,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.995,
+        "defects": 2,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.992,
+        "defects": 1,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.989,
+        "defects": 1,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.986,
+        "defects": 3,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.983,
+        "defects": 2,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.981,
+        "defects": 4,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.978,
+        "defects": 5,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.975,
+        "defects": 1,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.973,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.97,
+        "defects": 3,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.968,
+        "defects": 2,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.965,
+        "defects": 1,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.962,
+        "defects": 2,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.96,
+        "defects": 2,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.957,
+        "defects": 6,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.955,
+        "defects": 3,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.952,
+        "defects": 4,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.949,
+        "defects": 4,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.947,
+        "defects": 3,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.944,
+        "defects": 4,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.942,
+        "defects": 4,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.939,
+        "defects": 3,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.937,
+        "defects": 5,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.935,
+        "defects": 4,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.931,
+        "defects": 3,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.929,
+        "defects": 6,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.926,
+        "defects": 6,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.924,
+        "defects": 4,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.921,
+        "defects": 5,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.919,
+        "defects": 6,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.916,
+        "defects": 6,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.914,
+        "defects": 6,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.912,
+        "defects": 6,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.909,
+        "defects": 7,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.907,
+        "defects": 6,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.904,
+        "defects": 4,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.902,
+        "defects": 7,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.899,
+        "defects": 7,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.896,
+        "defects": 7,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.894,
+        "defects": 8,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.892,
+        "defects": 5,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.89,
+        "defects": 7,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.887,
+        "defects": 6,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.885,
+        "defects": 9,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.882,
+        "defects": 7,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.879,
+        "defects": 8,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.877,
+        "defects": 6,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.875,
+        "defects": 11,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.873,
+        "defects": 10,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.871,
+        "defects": 8,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.869,
+        "defects": 8,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.866,
+        "defects": 10,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.863,
+        "defects": 8,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.861,
+        "defects": 7,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.858,
+        "defects": 9,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.856,
+        "defects": 8,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.854,
+        "defects": 11,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.852,
+        "defects": 9,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.85,
+        "defects": 8,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.847,
+        "defects": 8,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.844,
+        "defects": 8,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.842,
+        "defects": 8,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.84,
+        "defects": 9,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.838,
+        "defects": 8,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.835,
+        "defects": 10,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.833,
+        "defects": 9,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.831,
+        "defects": 11,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.829,
+        "defects": 9,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.826,
+        "defects": 10,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.824,
+        "defects": 11,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.822,
+        "defects": 11,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.82,
+        "defects": 9,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.817,
+        "defects": 9,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.815,
+        "defects": 10,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.813,
+        "defects": 9,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.81,
+        "defects": 11,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.809,
+        "defects": 12,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.806,
+        "defects": 10,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.805,
+        "defects": 11,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.802,
+        "defects": 10,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.8,
+        "defects": 14,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.798,
+        "defects": 13,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.795,
+        "defects": 11,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.793,
+        "defects": 11,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.791,
+        "defects": 12,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.789,
+        "defects": 13,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.787,
+        "defects": 16,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.785,
+        "defects": 11,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.783,
+        "defects": 11,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.781,
+        "defects": 13,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.778,
+        "defects": 14,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.776,
+        "defects": 16,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.774,
+        "defects": 14,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.771,
+        "defects": 13,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.77,
+        "defects": 13,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.768,
+        "defects": 13,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.766,
+        "defects": 15,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.763,
+        "defects": 12,
+        "rul": 5
+      }
+    ]
+  },
+  {
+    "equipment_id": "EQP_014",
+    "failure_cycle": 500,
+    "timeline": [
+      {
+        "cycle": 0,
+        "health": 1.0,
+        "defects": 0,
+        "rul": 500
+      },
+      {
+        "cycle": 5,
+        "health": 0.995,
+        "defects": 1,
+        "rul": 495
+      },
+      {
+        "cycle": 10,
+        "health": 0.99,
+        "defects": 3,
+        "rul": 490
+      },
+      {
+        "cycle": 15,
+        "health": 0.986,
+        "defects": 1,
+        "rul": 485
+      },
+      {
+        "cycle": 20,
+        "health": 0.981,
+        "defects": 5,
+        "rul": 480
+      },
+      {
+        "cycle": 25,
+        "health": 0.976,
+        "defects": 1,
+        "rul": 475
+      },
+      {
+        "cycle": 30,
+        "health": 0.971,
+        "defects": 6,
+        "rul": 470
+      },
+      {
+        "cycle": 35,
+        "health": 0.967,
+        "defects": 2,
+        "rul": 465
+      },
+      {
+        "cycle": 40,
+        "health": 0.962,
+        "defects": 2,
+        "rul": 460
+      },
+      {
+        "cycle": 45,
+        "health": 0.958,
+        "defects": 2,
+        "rul": 455
+      },
+      {
+        "cycle": 50,
+        "health": 0.952,
+        "defects": 4,
+        "rul": 450
+      },
+      {
+        "cycle": 55,
+        "health": 0.948,
+        "defects": 3,
+        "rul": 445
+      },
+      {
+        "cycle": 60,
+        "health": 0.944,
+        "defects": 8,
+        "rul": 440
+      },
+      {
+        "cycle": 65,
+        "health": 0.939,
+        "defects": 6,
+        "rul": 435
+      },
+      {
+        "cycle": 70,
+        "health": 0.935,
+        "defects": 3,
+        "rul": 430
+      },
+      {
+        "cycle": 75,
+        "health": 0.93,
+        "defects": 7,
+        "rul": 425
+      },
+      {
+        "cycle": 80,
+        "health": 0.925,
+        "defects": 6,
+        "rul": 420
+      },
+      {
+        "cycle": 85,
+        "health": 0.921,
+        "defects": 4,
+        "rul": 415
+      },
+      {
+        "cycle": 90,
+        "health": 0.916,
+        "defects": 6,
+        "rul": 410
+      },
+      {
+        "cycle": 95,
+        "health": 0.912,
+        "defects": 6,
+        "rul": 405
+      },
+      {
+        "cycle": 100,
+        "health": 0.907,
+        "defects": 5,
+        "rul": 400
+      },
+      {
+        "cycle": 105,
+        "health": 0.902,
+        "defects": 9,
+        "rul": 395
+      },
+      {
+        "cycle": 110,
+        "health": 0.899,
+        "defects": 5,
+        "rul": 390
+      },
+      {
+        "cycle": 115,
+        "health": 0.894,
+        "defects": 5,
+        "rul": 385
+      },
+      {
+        "cycle": 120,
+        "health": 0.89,
+        "defects": 9,
+        "rul": 380
+      },
+      {
+        "cycle": 125,
+        "health": 0.885,
+        "defects": 6,
+        "rul": 375
+      },
+      {
+        "cycle": 130,
+        "health": 0.882,
+        "defects": 6,
+        "rul": 370
+      },
+      {
+        "cycle": 135,
+        "health": 0.877,
+        "defects": 6,
+        "rul": 365
+      },
+      {
+        "cycle": 140,
+        "health": 0.873,
+        "defects": 7,
+        "rul": 360
+      },
+      {
+        "cycle": 145,
+        "health": 0.869,
+        "defects": 8,
+        "rul": 355
+      },
+      {
+        "cycle": 150,
+        "health": 0.865,
+        "defects": 7,
+        "rul": 350
+      },
+      {
+        "cycle": 155,
+        "health": 0.86,
+        "defects": 8,
+        "rul": 345
+      },
+      {
+        "cycle": 160,
+        "health": 0.856,
+        "defects": 9,
+        "rul": 340
+      },
+      {
+        "cycle": 165,
+        "health": 0.852,
+        "defects": 8,
+        "rul": 335
+      },
+      {
+        "cycle": 170,
+        "health": 0.848,
+        "defects": 8,
+        "rul": 330
+      },
+      {
+        "cycle": 175,
+        "health": 0.844,
+        "defects": 8,
+        "rul": 325
+      },
+      {
+        "cycle": 180,
+        "health": 0.84,
+        "defects": 10,
+        "rul": 320
+      },
+      {
+        "cycle": 185,
+        "health": 0.835,
+        "defects": 8,
+        "rul": 315
+      },
+      {
+        "cycle": 190,
+        "health": 0.832,
+        "defects": 9,
+        "rul": 310
+      },
+      {
+        "cycle": 195,
+        "health": 0.827,
+        "defects": 13,
+        "rul": 305
+      },
+      {
+        "cycle": 200,
+        "health": 0.823,
+        "defects": 9,
+        "rul": 300
+      },
+      {
+        "cycle": 205,
+        "health": 0.82,
+        "defects": 11,
+        "rul": 295
+      },
+      {
+        "cycle": 210,
+        "health": 0.816,
+        "defects": 10,
+        "rul": 290
+      },
+      {
+        "cycle": 215,
+        "health": 0.812,
+        "defects": 15,
+        "rul": 285
+      },
+      {
+        "cycle": 220,
+        "health": 0.808,
+        "defects": 10,
+        "rul": 280
+      },
+      {
+        "cycle": 225,
+        "health": 0.804,
+        "defects": 10,
+        "rul": 275
+      },
+      {
+        "cycle": 230,
+        "health": 0.8,
+        "defects": 9,
+        "rul": 270
+      },
+      {
+        "cycle": 235,
+        "health": 0.797,
+        "defects": 12,
+        "rul": 265
+      },
+      {
+        "cycle": 240,
+        "health": 0.792,
+        "defects": 14,
+        "rul": 260
+      },
+      {
+        "cycle": 245,
+        "health": 0.789,
+        "defects": 10,
+        "rul": 255
+      },
+      {
+        "cycle": 250,
+        "health": 0.784,
+        "defects": 10,
+        "rul": 250
+      },
+      {
+        "cycle": 255,
+        "health": 0.781,
+        "defects": 13,
+        "rul": 245
+      },
+      {
+        "cycle": 260,
+        "health": 0.777,
+        "defects": 14,
+        "rul": 240
+      },
+      {
+        "cycle": 265,
+        "health": 0.773,
+        "defects": 11,
+        "rul": 235
+      },
+      {
+        "cycle": 270,
+        "health": 0.769,
+        "defects": 13,
+        "rul": 230
+      },
+      {
+        "cycle": 275,
+        "health": 0.766,
+        "defects": 12,
+        "rul": 225
+      },
+      {
+        "cycle": 280,
+        "health": 0.762,
+        "defects": 14,
+        "rul": 220
+      },
+      {
+        "cycle": 285,
+        "health": 0.759,
+        "defects": 14,
+        "rul": 215
+      },
+      {
+        "cycle": 290,
+        "health": 0.755,
+        "defects": 14,
+        "rul": 210
+      },
+      {
+        "cycle": 295,
+        "health": 0.751,
+        "defects": 13,
+        "rul": 205
+      },
+      {
+        "cycle": 300,
+        "health": 0.747,
+        "defects": 13,
+        "rul": 200
+      },
+      {
+        "cycle": 305,
+        "health": 0.743,
+        "defects": 15,
+        "rul": 195
+      },
+      {
+        "cycle": 310,
+        "health": 0.74,
+        "defects": 13,
+        "rul": 190
+      },
+      {
+        "cycle": 315,
+        "health": 0.737,
+        "defects": 14,
+        "rul": 185
+      },
+      {
+        "cycle": 320,
+        "health": 0.733,
+        "defects": 16,
+        "rul": 180
+      },
+      {
+        "cycle": 325,
+        "health": 0.729,
+        "defects": 17,
+        "rul": 175
+      },
+      {
+        "cycle": 330,
+        "health": 0.726,
+        "defects": 16,
+        "rul": 170
+      },
+      {
+        "cycle": 335,
+        "health": 0.722,
+        "defects": 13,
+        "rul": 165
+      },
+      {
+        "cycle": 340,
+        "health": 0.719,
+        "defects": 16,
+        "rul": 160
+      },
+      {
+        "cycle": 345,
+        "health": 0.715,
+        "defects": 16,
+        "rul": 155
+      },
+      {
+        "cycle": 350,
+        "health": 0.712,
+        "defects": 15,
+        "rul": 150
+      },
+      {
+        "cycle": 355,
+        "health": 0.709,
+        "defects": 17,
+        "rul": 145
+      },
+      {
+        "cycle": 360,
+        "health": 0.705,
+        "defects": 17,
+        "rul": 140
+      },
+      {
+        "cycle": 365,
+        "health": 0.702,
+        "defects": 16,
+        "rul": 135
+      },
+      {
+        "cycle": 370,
+        "health": 0.698,
+        "defects": 16,
+        "rul": 130
+      },
+      {
+        "cycle": 375,
+        "health": 0.695,
+        "defects": 18,
+        "rul": 125
+      },
+      {
+        "cycle": 380,
+        "health": 0.692,
+        "defects": 18,
+        "rul": 120
+      },
+      {
+        "cycle": 385,
+        "health": 0.688,
+        "defects": 17,
+        "rul": 115
+      },
+      {
+        "cycle": 390,
+        "health": 0.685,
+        "defects": 19,
+        "rul": 110
+      },
+      {
+        "cycle": 395,
+        "health": 0.682,
+        "defects": 19,
+        "rul": 105
+      },
+      {
+        "cycle": 400,
+        "health": 0.678,
+        "defects": 21,
+        "rul": 100
+      },
+      {
+        "cycle": 405,
+        "health": 0.675,
+        "defects": 18,
+        "rul": 95
+      },
+      {
+        "cycle": 410,
+        "health": 0.672,
+        "defects": 19,
+        "rul": 90
+      },
+      {
+        "cycle": 415,
+        "health": 0.668,
+        "defects": 17,
+        "rul": 85
+      },
+      {
+        "cycle": 420,
+        "health": 0.665,
+        "defects": 18,
+        "rul": 80
+      },
+      {
+        "cycle": 425,
+        "health": 0.662,
+        "defects": 16,
+        "rul": 75
+      },
+      {
+        "cycle": 430,
+        "health": 0.659,
+        "defects": 18,
+        "rul": 70
+      },
+      {
+        "cycle": 435,
+        "health": 0.655,
+        "defects": 23,
+        "rul": 65
+      },
+      {
+        "cycle": 440,
+        "health": 0.653,
+        "defects": 19,
+        "rul": 60
+      },
+      {
+        "cycle": 445,
+        "health": 0.649,
+        "defects": 19,
+        "rul": 55
+      },
+      {
+        "cycle": 450,
+        "health": 0.646,
+        "defects": 20,
+        "rul": 50
+      },
+      {
+        "cycle": 455,
+        "health": 0.643,
+        "defects": 18,
+        "rul": 45
+      },
+      {
+        "cycle": 460,
+        "health": 0.64,
+        "defects": 18,
+        "rul": 40
+      },
+      {
+        "cycle": 465,
+        "health": 0.637,
+        "defects": 18,
+        "rul": 35
+      },
+      {
+        "cycle": 470,
+        "health": 0.634,
+        "defects": 19,
+        "rul": 30
+      },
+      {
+        "cycle": 475,
+        "health": 0.631,
+        "defects": 18,
+        "rul": 25
+      },
+      {
+        "cycle": 480,
+        "health": 0.627,
+        "defects": 18,
+        "rul": 20
+      },
+      {
+        "cycle": 485,
+        "health": 0.624,
+        "defects": 23,
+        "rul": 15
+      },
+      {
+        "cycle": 490,
+        "health": 0.622,
+        "defects": 23,
+        "rul": 10
+      },
+      {
+        "cycle": 495,
+        "health": 0.618,
+        "defects": 20,
+        "rul": 5
+      }
+    ]
+  }
+]
