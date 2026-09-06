@@ -28,6 +28,9 @@ function LiveFeed({ equipmentId, onDetectionComplete }) {
       });
       setDetections(response.data.detections || []);
       setInferenceTime(response.data.inference_time_ms);
+      if (response.data.annotated_image) {
+        setImagePreview(response.data.annotated_image);
+      }
       if (onDetectionComplete) {
         onDetectionComplete(response.data);
       }

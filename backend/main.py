@@ -5,6 +5,7 @@ Provides REST endpoints for real-time defect detection, edge event ingestion,
 equipment health & RUL analytics, and model fine-tuning triggers.
 """
 
+import base64
 from datetime import datetime
 import json
 import os
@@ -149,15 +150,32 @@ async def detect(
             if image is None:
                 raise HTTPException(status_code=400, detail="Invalid image encoding")
 
+            annotated_b64 = None
             model = get_model()
             if model is not None:
-                results = model(image, conf=0.35, device=device)
+                results = model(image, conf=0.15, device=device)
+                annotated_img = image.copy()
                 for box in results[0].boxes:
                     cls_id = int(box.cls)
                     conf = float(box.conf)
                     xyxy = box.xyxy[0].tolist()
 
-                    cls_name = CLASS_NAMES[cls_id] if cls_id < len(CLASS_NAMES) else f"defect_{cls_id}"
+                    if hasattr(model, "names") and cls_id in model.names:
+                        raw_name = model.names[cls_id]
+                    elif cls_id < len(CLASS_NAMES):
+                        raw_name = CLASS_NAMES[cls_id]
+                    else:
+                        raw_name = f"defect_{cls_id}"
+
+                    # Normalize name to standard 6 defect categories
+                    cls_name = raw_name.replace("-", "_").lower()
+                    if cls_name in ["pin_hole", "pinhole"]:
+                        cls_name = "missing_hole"
+                    elif cls_name in ["copper", "spurious_copper"]:
+                        cls_name = "spurious_copper"
+                    elif cls_name in ["mousebite", "mouse_bite"]:
+                        cls_name = "mouse_bite"
+
                     detections.append({
                         "class_id": cls_id,
                         "class_name": cls_name,
@@ -165,8 +183,26 @@ async def detect(
                         "bbox": [round(c, 2) for c in xyxy],
                     })
                     total_defects += 1
+
+                    # Draw defect bounding box on image
+                    x1, y1, x2, y2 = [int(round(c)) for c in xyxy]
+                    cv2.rectangle(annotated_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                    cv2.putText(
+                        annotated_img,
+                        f"{cls_name} {conf:.2f}",
+                        (x1, max(18, y1 - 6)),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        0.5,
+                        (0, 255, 255),
+                        2,
+                    )
+
+                # Encode annotated image as base64 JPEG
+                success, buffer = cv2.imencode(".jpg", annotated_img)
+                if success:
+                    annotated_b64 = f"data:image/jpeg;base64,{base64.b64encode(buffer).decode('utf-8')}"
             else:
-                # Mock detector if YOLO weights not downloaded yet
+                # Mock detector fallback
                 detections = [
                     {
                         "class_id": 3,
@@ -215,6 +251,7 @@ async def detect(
             "inference_time_ms": round(inference_time, 2),
             "timestamp": datetime.utcnow().isoformat(),
             "model_type": model_type,
+            "annotated_image": annotated_b64,
         })
 
     except Exception as e:
