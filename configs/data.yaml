@@ -1,0 +1,11 @@
+path: D:/Programming/Real Minors/pcb-smart-maintenance/data/pku_market_processed
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spur
+  5: spurious_copper

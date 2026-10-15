@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Dataset and large files
+data/
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Reports (generated outputs)
+reports/*.json
+reports/*.csv
+reports/*.png
+reports/*.jpg
+reports/sample_images/
+reports/prediction_samples/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment variables
+.env

@@ -1,0 +1,45 @@
+# =============================================================================
+# PCB Smart Maintenance - Phase 1 Training Configuration
+# =============================================================================
+# Modify these values to adjust training behavior.
+# Do not hardcode settings in Python scripts.
+
+# --- Model ---
+model: "yolov8n.pt"             # Nano model (smallest, CPU-friendly)
+# model: "yolov8s.pt"           # Small model (optional upgrade if nano is too weak)
+
+# --- Training ---
+epochs: 50                       # Initial target; early stopping may halt sooner
+batch_size: 16                   # Optimized for 24 GB RAM and multi-core CPU SIMD
+image_size: 640                  # Standard YOLO input resolution
+patience: 10                     # Early stopping patience (epochs without improvement)
+seed: 42                         # Fixed random seed for reproducibility
+workers: 4                       # DataLoader workers (adjust to CPU core count)
+device: "cpu"                    # CPU execution
+
+# --- Optimizer ---
+optimizer: "auto"                # Let Ultralytics choose (SGD for training from pretrained)
+lr0: 0.01                        # Initial learning rate
+lrf: 0.01                        # Final learning rate factor (lr0 * lrf)
+momentum: 0.937                  # SGD momentum
+weight_decay: 0.0005             # L2 regularization
+
+# --- Augmentation (Ultralytics built-in, applied on-the-fly) ---
+augmentation:
+  fliplr: 0.5                    # Horizontal flip probability
+  flipud: 0.0                    # Vertical flip probability (disabled for PCB orientation)
+  degrees: 10.0                  # Random rotation range (±degrees)
+  scale: 0.3                     # Random scale factor (±scale)
+  hsv_h: 0.015                   # HSV hue augmentation
+  hsv_s: 0.5                     # HSV saturation augmentation
+  hsv_v: 0.3                     # HSV value (brightness) augmentation
+  mosaic: 1.0                    # Mosaic augmentation probability
+  close_mosaic: 10               # Disable mosaic for last N epochs
+
+# --- Checkpointing ---
+save_period: -1                  # Save checkpoint every N epochs (-1 = disabled, rely on best/last)
+exist_ok: true                   # Overwrite existing run directory
+
+# --- Paths ---
+project: "runs"                  # Parent directory for training runs
+name: "source_model"             # Run name (subdirectory under project)

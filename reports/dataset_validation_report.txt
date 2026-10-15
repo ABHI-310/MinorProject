@@ -1,0 +1,17 @@
+DATASET VERIFICATION REPORT
+======================================================================
+Path: D:\Programming\Real Minors\pcb-smart-maintenance\data\pku_market
+Total images: 60
+Total labels: 60
+Total annotations: 119
+Overall valid: YES
+
+Class distribution:
+  missing_hole        :   23 instances in  21 images
+  mouse_bite          :   14 instances in  13 images
+  open                :   16 instances in  15 images
+  short               :   20 instances in  16 images
+  spur                :   28 instances in  26 images
+  spurious_copper     :   18 instances in  17 images
+
+Issues:
