@@ -13,9 +13,9 @@ build/
 *.egg
 
 # Dataset and large files
-data/
-runs/
-weights/
+/data/
+/runs/
+/weights/
 *.pt
 *.onnx
 *.engine
