@@ -1,0 +1,145 @@
+.alerts-card {
+  padding: 16px 18px 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.alerts-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.alerts-card__title-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alerts-bell-icon {
+  color: #dc2626;
+}
+
+.alerts-card__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.alerts-pending-badge {
+  background: #dc2626;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 9999px;
+  letter-spacing: 0.03em;
+}
+
+/* List */
+.alerts-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alert-box {
+  background: #fdfefe;
+  border: 1px solid #e2e8f0;
+  border-left-width: 3px;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.alert-box--critical {
+  border-left-color: #dc2626;
+  background: #fffafa;
+}
+
+.alert-box--warning {
+  border-left-color: #f59e0b;
+}
+
+.alert-box--info {
+  border-left-color: #cbd5e1;
+}
+
+.alert-box__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert-type-text {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.alert-type-text--critical {
+  color: #dc2626;
+}
+
+.alert-type-text--warning {
+  color: #b45309;
+}
+
+.alert-type-text--info {
+  color: #475569;
+}
+
+.alert-time-text {
+  font-size: 0.65rem;
+  color: #94a3b8;
+}
+
+.alert-desc {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.alert-box__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.alert-ref-id {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #b45309;
+}
+
+.alert-action-btn {
+  background: #b91c1c;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+.alert-action-btn:hover {
+  background: #991b1b;
+}
+
+.alerts-footnote {
+  font-size: 0.62rem;
+  color: #94a3b8;
+  font-style: italic;
+  margin-top: 10px;
+  line-height: 1.3;
+}

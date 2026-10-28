@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Two CPU160 epochs on tiny mixed-domain sample, not full training or accuracy evidence",
+  "checks": [
+    "6-class mixed dataset configuration",
+    "Both specialist baseline validations",
+    "Training from preserved source checkpoint",
+    "Intentional interruption and checkpoint ZIP CRC",
+    "Resume from optimizer in fresh run directory",
+    "Separate candidate validations and gates",
+    "Final results ZIP CRC",
+    "Completed run reused without training",
+    "Restored training CSV contains epochs 1 and 2 exactly once"
+  ],
+  "workspace": "/var/folders/6m/dzrdcw2s6x5c9dlvq_15wr800000gn/T/pcb-six-class-check-4w4o_296"
+}

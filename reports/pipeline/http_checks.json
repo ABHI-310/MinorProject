@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:8000",
+  "test_equipment_id": "CHECK_58b037dbbc",
+  "database": "sqlite",
+  "training_started": false,
+  "frontend": {
+    "repository": "https://github.com/ABHI-310/MinorProject",
+    "branch": "Real-Minor",
+    "commit": "50c12b383fe2f3453730772c02dd5884e09b3e6e",
+    "source_unchanged": true,
+    "integration_source": "dashboard_integration",
+    "dashboard_data": "live API and persisted inspection records",
+    "integration_sha256": {
+      "src/App.jsx": "e9dd7dd689a87239857fecdcf1a17d8fe08e8733b65dea58f4b7b42167497f4d",
+      "src/Pipeline.css": "a8a843c760f35da29adb326b4aff162a44eafb35e8a4303456e9f338d2cdc73d",
+      "src/components/AlertsPage.jsx": "47e6095e11825ec4dc682c1b2afa1fa2e2bf7ec01cf845967e5f4879ba949ee5",
+      "src/components/DefectAnalytics.jsx": "545f16247a1e13f69a7a7d7b38f721d4164fde3bd190f7b92bed3fce85f9e096",
+      "src/components/DefectsByCategory.jsx": "2bc160708e6a65f4fa7d44d9a79db1e720b298fa4bc0f2336cc1aac5d36b86aa",
+      "src/components/Header.jsx": "d8a403056118fa2fc58174bdb74e69f9373862bdcd740820095166b77c8f46cf",
+      "src/components/InspectionView.jsx": "47aee5fed1a368aef3bf829063c25dee951f569488a8c9b46bc3fdea1dfbc0f4",
+      "src/components/MetricsPanel.jsx": "0842df1604f17cbae99355a596204a8fb29c7aa802151bf86d4f5e9cbe49fa33",
+      "src/components/ModelSettings.jsx": "99952abacaeca423649dfcdb3db92df5e73aeff7e6e7f0bf9c060b77c28f37b5",
+      "src/components/PipelineControls.jsx": "1c5416d0a5b9e7bb6425aaea335bbcfdc5297f614775028d5cc9a6cf4542b82c",
+      "src/components/PipelineHealth.jsx": "ac08e7c24a0c4e83c6c52ecc2ce5b4ce57af6dbf07be6d20c672c67f6602ccf3",
+      "src/components/RecentAlerts.jsx": "a93e87ceb474813dd98366088a937aeb592bbd5de0476dfb3106ee34b16ac2bc",
+      "src/components/RecentInspections.jsx": "088608884a202470b67c57e7691580fcc2ce5b3a128d25a0ad384e0025f7bbd0",
+      "src/components/RuntimeBanner.jsx": "f0eb9ea0f62188bd84934d0c2c07b6f9abac65020e5293b3e74bf62e55d74d09",
+      "src/components/Sidebar.jsx": "9efa24b15e0fcf32ce5129a2936ff51e218df64dfaf5522a6fb7f969e5ad401d",
+      "src/components/TrendsChart.jsx": "faf7c902014348b4f57bec471402545c8028a6ad49b72a2bc229d52569c4c03c",
+      "src/data/PipelineContext.jsx": "562e9618840cb11e8a3f8edecb852e841eba13ff6076c066bb789561e76758a6"
+    }
+  },
+  "checks": [
+    "Dashboard HTML and compiled assets",
+    "Bundled sample image",
+    "Canonical API and legacy compatibility",
+    "Both verified model records",
+    "Real source and target image inference",
+    "Saved images and annotations",
+    "Live dashboard aggregates",
+    "Idempotent retry",
+    "Zero-detection inspection saved",
+    "History and totals persisted",
+    "Equipment isolation",
+    "Synthetic observed-failure and censored lifecycles",
+    "Unknown live RUL without exposure"
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "path": "artifacts/verification/phase2_notebook_check/input/pcb_revamp_phase2.zip",
+    "old_target": "/Users/abhinavgupta/Developer/MinorProject/data/revamp_kaggle_v2/pcb_revamp_phase2.zip",
+    "new_target": "/Users/abhinavgupta/Developer/MinorProject/artifacts/kaggle/phase2_v2/pcb_revamp_phase2.zip"
+  }
+]

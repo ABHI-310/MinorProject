@@ -1,0 +1,63 @@
+/* ============================================================
+   TREND CHARTS — 2×2 chart grid
+   ============================================================ */
+
+.trend-charts__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.chart-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition-normal);
+}
+
+.chart-card:hover {
+  border-color: rgba(99, 115, 171, 0.25);
+}
+
+.chart-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.chart-card__title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chart-card__title svg {
+  color: var(--accent-blue);
+  width: 15px;
+  height: 15px;
+}
+
+.chart-card__body {
+  padding: 16px 18px 18px;
+  height: 280px;
+  position: relative;
+}
+
+.chart-card__body canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 900px) {
+  .trend-charts__grid {
+    grid-template-columns: 1fr;
+  }
+}

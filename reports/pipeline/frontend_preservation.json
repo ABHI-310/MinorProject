@@ -1,0 +1,17 @@
+{
+  "status": "original frontend source restored; further integration is backend-only",
+  "sha256": {
+    "index.html": "1882295d4851f2b09a7a6a7100227a15510fa72a5b1cd8d676f0f9b3483d9e2d",
+    "package-lock.json": "c341caf856416e7863941b9e8a62932644d9e647ab69a0b6a90bb41843a7604e",
+    "package.json": "39cdf18a28ff901f3a6bb9063616bdf8cfded9e1f60a30fbf800a9d8fe8e1ac4",
+    "src/styles.css": "f6a5fe473d6bcb9fdef70165b6ad917059a79305445dd4fa2ef9b21572f22ecc",
+    "src/main.jsx": "cdab715c75325e40ec2159381564149797255f42cb7954dd53d77a3e8d7ac332",
+    "src/App.jsx": "f16ec6e06392ba72b2d7029595f915bc7d1c48036f9cd938a4ac5c40d29ba600",
+    "src/api.js": "aa170ccef6cd67a55e5a7b74e4f99aa26569be99387b9e349f94341481d89f50",
+    "src/components/Shared.jsx": "6d9f5eef7cb68e6216e530853ec7b68b03c1f6bfaa982b9bb5c073960473f781",
+    "src/pages/Inspection.jsx": "1174f517155229f18c7874825ac8b26f40bbb0d5f4611702c4bc4285b43d44db",
+    "src/pages/Overview.jsx": "e3ea3f33b47f9a841a02b873908945da2054da2e99c5db31d9abd7c9679d4c1f"
+  },
+  "verified_after_runtime_build": true,
+  "integration_scope": "backend, runtime build copy, API compatibility and startup scripts only"
+}

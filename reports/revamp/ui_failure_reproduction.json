@@ -1,0 +1,24 @@
+{
+  "status": "reproduced_model_limitations",
+  "scope": "Six user-supplied photos, not a labeled accuracy benchmark. Two deployed models; direct YOLO vs registry vs isolated FastAPI endpoint at confidence 0.25. Additional confidence 0.05 diagnostic. No browser automation or production database writes.",
+  "all_12_api_comparisons_match": true,
+  "default_source_empty_images": [
+    3,
+    5
+  ],
+  "visual_observations": {
+    "1": "Clear physical separation/fracture of assembled/soldered board.",
+    "2": "Low-resolution angled assembled board; specific defect not confidently established visually.",
+    "3": "Visible surface/coating irregularity; exact failure type not established.",
+    "4": "Soldering/repair in progress; cannot establish electrical defect from photo alone.",
+    "5": "Severe visible surface damage; exact material/electrical failure not established.",
+    "6": "Visible board crack near edge."
+  },
+  "limitations": [
+    "Physical fracture, burns, delamination, corrosion and solder quality are not explicit trained labels.",
+    "No-detection does not establish board health.",
+    "More detections at lower confidence do not demonstrate correct damage recognition.",
+    "Current frontend already warns no detections does not certify defect-free; no automatic unsupported-image gate exists."
+  ],
+  "training_started": false
+}

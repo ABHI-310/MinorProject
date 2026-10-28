@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "equipment": 100,
+  "rows": 39041,
+  "observation_horizon_cycles": 500,
+  "failure_observed": 66,
+  "censored": 34,
+  "equipment_per_split": {
+    "train": 70,
+    "val": 15,
+    "test": 15
+  },
+  "rows_per_split": {
+    "train": 27941,
+    "val": 5891,
+    "test": 5209
+  },
+  "output_directory": "/Users/abhinavgupta/Developer/MinorProject/data/phase3_rul",
+  "exact_rul_definition": "first observed threshold-crossing cycle minus current cycle",
+  "censoring": "Unobserved failures: exact RUL null/blank; lower bound = observation_end_cycle + 1 - cycle.",
+  "severity_weights": {
+    "mouse_bite": 1.0,
+    "open_circuit": 1.5,
+    "short": 1.5,
+    "spur": 0.75,
+    "spurious_copper": 0.75
+  },
+  "assumptions": [
+    "Health has an exponential trend with noise and no spontaneous recovery.",
+    "Each cycle inspects 100 boards; defect counts are Poisson observations.",
+    "Five defect types are allocated uniformly; severity weights are illustrative.",
+    "Different equipment IDs are placed in different data splits."
+  ],
+  "limitations": [
+    "No real equipment run-to-failure data was used.",
+    "PCB defect detections do not establish the cause or lifetime of production equipment.",
+    "No learned RUL predictor or measured real-world RUL accuracy is claimed.",
+    "Latent health, failure cycle, lower-bound labels, profile and equipment ID must not be used as learned prediction features."
+  ]
+}

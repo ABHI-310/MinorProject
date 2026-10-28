@@ -1,0 +1,347 @@
+[
+  {
+    "checkpoint": "artifacts/models/source/model.pt",
+    "checkpoint_contents_loaded": false,
+    "checkpoint_sha256": "79170e0bf457afc6a8ab40bb05e2539b5724d0e7ac6d074ad78a252a32a69c00",
+    "checkpoint_verified": true,
+    "domain": "source",
+    "evaluation_status": "historical development benchmark; not reproduced by this audit",
+    "metadata": {
+      "baseline_test_mAP50": 0.7114396243095049,
+      "baseline_test_mAP50_95": 0.3530384618803429,
+      "checkpoint_sha256": "79170e0bf457afc6a8ab40bb05e2539b5724d0e7ac6d074ad78a252a32a69c00",
+      "classes": [
+        "missing_hole",
+        "mouse_bite",
+        "open_circuit",
+        "short",
+        "spur",
+        "spurious_copper"
+      ],
+      "decision": "User accepted this baseline and deferred accuracy improvements on 2026-10-21.",
+      "designation": "current_best_source_model",
+      "evaluation_note": "Original baseline used a board-disjoint holdout. Subsequent recovery repeated evaluation on those same boards; it is not a new independent test.",
+      "image_size": 960,
+      "model": "YOLOv8s",
+      "source": "/Users/abhinavgupta/Downloads/phase1_original_recovery_results/original_recovery_run/selected_best.pt",
+      "status": "working baseline; original performance targets unmet",
+      "test_images": 93,
+      "training_original_images": 480,
+      "validation_images": 120
+    },
+    "new_inference_run": false,
+    "saved_metrics": {
+      "checkpoint_sha256": "79170e0bf457afc6a8ab40bb05e2539b5724d0e7ac6d074ad78a252a32a69c00",
+      "evaluation_status": "development comparison; these boards were inspected earlier",
+      "hardware": "Tesla T4",
+      "image_size": 960,
+      "images": 93,
+      "mAP50": 0.7114396243095049,
+      "mAP50_95": 0.3530384618803429,
+      "mAP75": 0.2820705290187092,
+      "per_class": [
+        {
+          "class_id": 0,
+          "f1": 0.8711172525718625,
+          "mAP50": 0.8712390129087897,
+          "mAP50_95": 0.5160153431314938,
+          "name": "missing_hole",
+          "precision": 1.0,
+          "recall": 0.7716631816337649
+        },
+        {
+          "class_id": 1,
+          "f1": 0.775576744210366,
+          "mAP50": 0.8191966886893461,
+          "mAP50_95": 0.3841132475216239,
+          "name": "mouse_bite",
+          "precision": 0.8816152381312317,
+          "recall": 0.6923076923076923
+        },
+        {
+          "class_id": 2,
+          "f1": 0.4486726494783015,
+          "mAP50": 0.6283022447429111,
+          "mAP50_95": 0.32738088212320193,
+          "name": "open_circuit",
+          "precision": 0.4069022233830237,
+          "recall": 0.5
+        },
+        {
+          "class_id": 3,
+          "f1": 0.7563319848851127,
+          "mAP50": 0.7961656040029887,
+          "mAP50_95": 0.2981184027849376,
+          "name": "short",
+          "precision": 0.9614389468555975,
+          "recall": 0.6233505441315281
+        },
+        {
+          "class_id": 4,
+          "f1": 0.6016296747874676,
+          "mAP50": 0.5366569895027669,
+          "mAP50_95": 0.25796658529737615,
+          "name": "spur",
+          "precision": 0.5828835804660079,
+          "recall": 0.6216216216216216
+        },
+        {
+          "class_id": 5,
+          "f1": 0.6005548247453085,
+          "mAP50": 0.6170772060102266,
+          "mAP50_95": 0.3346363104234233,
+          "name": "spurious_copper",
+          "precision": 0.4951725231866795,
+          "recall": 0.7629186967261478
+        }
+      ],
+      "precision": 0.7213354186704234,
+      "python": "3.13.15",
+      "recall": 0.6619769560701257,
+      "split": "test",
+      "torch": "2.11.0+cu128",
+      "training_seconds_this_attempt": 386.9759850502014,
+      "ultralytics": "8.4.142",
+      "weights": "/kaggle/working/original_recovery_run/selected_best.pt"
+    }
+  },
+  {
+    "checkpoint": "artifacts/models/target/model.pt",
+    "checkpoint_contents_loaded": false,
+    "checkpoint_sha256": "9de3ade1e902ec97f2f3efb3081933d09244523f9cb29335bef45d73c940bdda",
+    "checkpoint_verified": true,
+    "domain": "target",
+    "evaluation_status": "historical development benchmark; not reproduced by this audit",
+    "metadata": {
+      "best_epoch": 61,
+      "checkpoint_sha256": "9de3ade1e902ec97f2f3efb3081933d09244523f9cb29335bef45d73c940bdda",
+      "classes": [
+        "missing_hole",
+        "mouse_bite",
+        "open_circuit",
+        "short",
+        "spur",
+        "spurious_copper"
+      ],
+      "designation": "current_best_target_model",
+      "development_test_images": 992,
+      "development_test_mAP50": 0.7881969817616188,
+      "development_test_mAP50_95": 0.3765565854165234,
+      "development_test_precision": 0.7301096202529453,
+      "development_test_recall": 0.7551188977622071,
+      "evaluated_class_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image_size": 640,
+      "limitations": [
+        "More labels than the 100-image experiment; accuracy comparison does not isolate method improvement.",
+        "Development test already inspected.",
+        "Board-disjointness unavailable."
+      ],
+      "method": "larger-label supervised fine-tuning, one fixed training run",
+      "model": "YOLOv8s",
+      "previous_checkpoint_sha256": "6a7908505c0ee4fcf54ec6583f58d76620c356339d781d56b58398bec4196b3a",
+      "source_model_preserved": true,
+      "source_pkudomain_after_target_finetuning": "not evaluated; retain phase1_final/model.pt for source-domain use",
+      "status": "current development model for integration; imperfect detection and localization",
+      "training_epochs": 80,
+      "training_target_images": 3606,
+      "validation_mAP50": 0.7816953691069595,
+      "validation_mAP50_95": 0.39236234788442564,
+      "validation_target_images": 403
+    },
+    "new_inference_run": false,
+    "saved_metrics": {
+      "checkpoint_sha256": "9de3ade1e902ec97f2f3efb3081933d09244523f9cb29335bef45d73c940bdda",
+      "evaluated_class_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "mAP50": 0.7881969817616188,
+      "mAP50_95": 0.3765565854165234,
+      "per_class": [
+        {
+          "class_id": 1,
+          "f1": 0.7393993850953311,
+          "mAP50": 0.7709294054514141,
+          "mAP50_95": 0.3341081026721068,
+          "name": "mouse_bite",
+          "precision": 0.780484078288291,
+          "recall": 0.7024237867787899
+        },
+        {
+          "class_id": 2,
+          "f1": 0.7770105298691149,
+          "mAP50": 0.8377245727156348,
+          "mAP50_95": 0.4210663256250141,
+          "name": "open_circuit",
+          "precision": 0.7109509426981123,
+          "recall": 0.8566037735849057
+        },
+        {
+          "class_id": 3,
+          "f1": 0.764902667180496,
+          "mAP50": 0.8476189608496314,
+          "mAP50_95": 0.43500553983355994,
+          "name": "short",
+          "precision": 0.676078334777793,
+          "recall": 0.8805970149253731
+        },
+        {
+          "class_id": 4,
+          "f1": 0.6241049889049063,
+          "mAP50": 0.6797405433234583,
+          "mAP50_95": 0.2726982697770237,
+          "name": "spur",
+          "precision": 0.7547814150829166,
+          "recall": 0.5319991813671683
+        },
+        {
+          "class_id": 5,
+          "f1": 0.7642411805843167,
+          "mAP50": 0.8049714264679546,
+          "mAP50_95": 0.4199046891749124,
+          "name": "spurious_copper",
+          "precision": 0.7282533304176132,
+          "recall": 0.8039707321547986
+        }
+      ],
+      "precision": 0.7301096202529453,
+      "recall": 0.7551188977622071,
+      "split": "test",
+      "weights": "/kaggle/working/phase2_one_shot_run/selected_target.pt"
+    }
+  },
+  {
+    "checkpoint_verified": false,
+    "domain": "mixed",
+    "evidence_status": "reported metrics only; candidate checkpoint not verified",
+    "new_inference_run": false,
+    "reported_results": {
+      "best_epoch": 43,
+      "candidate_passed_review_gates": false,
+      "completed_epochs": 58,
+      "image_size": 960,
+      "mixed_validation": {
+        "images": 523,
+        "instances": 1308,
+        "mAP50": 0.846,
+        "mAP50_95": 0.435,
+        "precision": 0.821,
+        "recall": 0.78
+      },
+      "model": "YOLOv8s",
+      "provenance": "Metrics transcribed from the user's pasted Kaggle output on 2026-10-23. No candidate weights are available locally for independent verification.",
+      "recovery_observations": {
+        "current_draft": "New running draft session; output browser contains only .virtual_documents. Persistence displays No persistence.",
+        "downloads_check": "No matching six-class checkpoint/results files found at the top level of the local Downloads folder.",
+        "production_models": "No production model replacement performed.",
+        "saved_version_id": 361360469,
+        "saved_version_status": "Failed after approximately 25 seconds at the CUDA availability assertion; viewer reports 0 output files."
+      },
+      "source_validation": {
+        "images": 120,
+        "instances": 562,
+        "mAP50": 0.884,
+        "mAP50_95": 0.457,
+        "per_class": {
+          "missing_hole": {
+            "mAP50": 0.973,
+            "mAP50_95": 0.54,
+            "precision": 1.0,
+            "recall": 0.787
+          },
+          "mouse_bite": {
+            "mAP50": 0.837,
+            "mAP50_95": 0.442,
+            "precision": 0.882,
+            "recall": 0.792
+          },
+          "open_circuit": {
+            "mAP50": 0.975,
+            "mAP50_95": 0.521,
+            "precision": 0.968,
+            "recall": 0.976
+          },
+          "short": {
+            "mAP50": 0.835,
+            "mAP50_95": 0.404,
+            "precision": 0.941,
+            "recall": 0.784
+          },
+          "spur": {
+            "mAP50": 0.839,
+            "mAP50_95": 0.385,
+            "precision": 0.84,
+            "recall": 0.79
+          },
+          "spurious_copper": {
+            "mAP50": 0.845,
+            "mAP50_95": 0.449,
+            "precision": 0.531,
+            "recall": 0.861
+          }
+        },
+        "precision": 0.86,
+        "recall": 0.832
+      },
+      "status": "reported_training_complete_model_files_not_recovered",
+      "target_validation": {
+        "evaluated_class_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "images": 403,
+        "instances": 746,
+        "mAP50": 0.811,
+        "mAP50_95": 0.411,
+        "per_class": {
+          "mouse_bite": {
+            "mAP50": 0.736,
+            "mAP50_95": 0.328,
+            "precision": 0.748,
+            "recall": 0.722
+          },
+          "open_circuit": {
+            "mAP50": 0.841,
+            "mAP50_95": 0.478,
+            "precision": 0.721,
+            "recall": 0.866
+          },
+          "short": {
+            "mAP50": 0.901,
+            "mAP50_95": 0.508,
+            "precision": 0.764,
+            "recall": 0.902
+          },
+          "spur": {
+            "mAP50": 0.751,
+            "mAP50_95": 0.315,
+            "precision": 0.813,
+            "recall": 0.555
+          },
+          "spurious_copper": {
+            "mAP50": 0.827,
+            "mAP50_95": 0.425,
+            "precision": 0.792,
+            "recall": 0.723
+          }
+        },
+        "precision": 0.768,
+        "recall": 0.754
+      },
+      "test_used": false,
+      "training_hours": 3.304
+    }
+  }
+]

@@ -1,0 +1,24 @@
+# Send only maintained runtime sources and required model assets to Docker.
+*
+!src/
+!src/**
+!configs/
+!configs/Dockerfile
+!configs/requirements.txt
+!examples/
+!examples/**
+!artifacts/
+!artifacts/models/
+!artifacts/models/source/
+!artifacts/models/source/**
+!artifacts/models/target/
+!artifacts/models/target/**
+!data/
+!data/synthetic/
+!data/synthetic/phase3_rul/
+!data/synthetic/phase3_rul/scenarios.json
+!data/runtime/
+!data/runtime/dashboard/
+!data/runtime/dashboard/**
+**/__pycache__/
+**/*.pyc

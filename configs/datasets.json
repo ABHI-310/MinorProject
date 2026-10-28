@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "classes": ["missing_hole", "mouse_bite", "open_circuit", "short", "spur", "spurious_copper"],
+  "datasets": [
+    {
+      "id": "source",
+      "prepared": "data/prepared/source",
+      "original": "data/raw/pku/PCB_DATASET",
+      "format": "voc",
+      "expected_class_ids": [0, 1, 2, 3, 4, 5],
+      "expected_images": {"train": 480, "val": 120, "test": 93},
+      "grouping": "board_template_prefix",
+      "source_url": "https://robotics.pkusz.edu.cn/resources/dataset/",
+      "usage": "Academic research only; not public domain. Preserve attribution.",
+      "exclusions": ["Unverified Roboflow export", "Rotated derivatives counted as independent boards"],
+      "model_folder": "artifacts/models/source",
+      "metrics": "artifacts/models/source/reports/selected_model_metrics.json"
+    },
+    {
+      "id": "target",
+      "prepared": "data/prepared/target",
+      "original": "data/raw/dspcbsd/official/extracted/Data_COCO",
+      "format": "coco",
+      "expected_class_ids": [1, 2, 3, 4, 5],
+      "expected_images": {"train": 3606, "val": 403, "test": 992},
+      "grouping": "unknown",
+      "source_url": "https://doi.org/10.6084/m9.figshare.24970329",
+      "usage": "CC BY 4.0. Preserve author attribution and describe conversions.",
+      "category_names": {"1": "SH", "2": "SP", "3": "SC", "4": "OP", "5": "MB", "6": "HB", "7": "CS", "8": "CFO", "9": "BMFO"},
+      "category_mapping": {"1": 3, "2": 4, "3": 5, "4": 2, "5": 1},
+      "exclusions": ["Images containing unsupported HB/CS/CFO/BMFO labels", "Missing-hole target claims"],
+      "model_folder": "artifacts/models/target",
+      "metrics": "artifacts/models/target/results.json"
+    }
+  ],
+  "external_candidates_not_downloaded_or_validated": [
+    {
+      "name": "PCB-Defect (Mendeley)",
+      "url": "https://data.mendeley.com/datasets/vdj74sngvn/1",
+      "usage": "CC BY 4.0",
+      "proposed_role": "External evaluation after overlap, grouping and annotation audit",
+      "class_caution": "Missing pad is not missing hole. Evaluate only semantically supported classes."
+    },
+    {
+      "name": "DeepPCB",
+      "url": "https://github.com/tangsanli5201/DeepPCB",
+      "usage": "README specifies research use; repository code has MIT license. Preserve both notices.",
+      "proposed_role": "Optional second external domain, not required for initial training",
+      "class_caution": "Pinhole is not missing hole. Paired templates share splits. Use a common IoU evaluation protocol."
+    }
+  ]
+}

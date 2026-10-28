@@ -1,0 +1,24 @@
+{
+  "status": "reported_full_board_run_verified",
+  "input_files": {
+    "full_boards_run_checkpoint.zip": "5341e981f522435e2836b8bbd23fa0cf0562ee1031f928c9c78949bbaa73d6e9",
+    "report_3.json": "5495f2adc30d7b3e7657f6f0d54e8032cbfb5d8de6a267e2cdc87c5f0f247c9b",
+    "training_3.log": "b63e0b37239da62957a595ef8a8c50af5f85c610ccaf6914bfe4060a7db005af",
+    "pcb_environment_3.json": "6678369f77dc072af2de3d26d2f0376957cd8e20f3da546c88cb5bd2380235ab"
+  },
+  "best_epoch": 10,
+  "completed_epochs": 25,
+  "candidate": {
+    "map50": 0.8006477458829142,
+    "map50_95": 0.36490572936201227,
+    "precision": 0.8648703523933071,
+    "recall": 0.6920774277715389
+  },
+  "change_vs_mixed_views": {
+    "map50": -0.021119297024876693,
+    "map50_95": -0.006003955366034874,
+    "precision": 0.008259905233753528,
+    "recall": -0.06376015471698393
+  },
+  "decision": "Retain baseline. Removing derived views did not improve aggregate scores in this run; do not infer a universal crop effect from one seed and unequal update budgets."
+}

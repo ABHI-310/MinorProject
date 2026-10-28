@@ -1,0 +1,37 @@
+[
+  {
+    "code": "development_test",
+    "dataset": "source",
+    "detail": "Legacy test has already influenced development; it is not an untouched final test.",
+    "path": null,
+    "severity": "warning"
+  },
+  {
+    "code": "negative_coverage",
+    "dataset": "source",
+    "detail": "0 empty annotations; none is certified healthy by this audit. Normal-board specificity is unestablished.",
+    "path": null,
+    "severity": "warning"
+  },
+  {
+    "code": "unknown_board_groups",
+    "dataset": "target",
+    "detail": "Board-disjointness cannot be established for target images.",
+    "path": null,
+    "severity": "warning"
+  },
+  {
+    "code": "development_test",
+    "dataset": "target",
+    "detail": "Legacy test has already influenced development; it is not an untouched final test.",
+    "path": null,
+    "severity": "warning"
+  },
+  {
+    "code": "negative_coverage",
+    "dataset": "target",
+    "detail": "0 empty annotations; none is certified healthy by this audit. Normal-board specificity is unestablished.",
+    "path": null,
+    "severity": "warning"
+  }
+]

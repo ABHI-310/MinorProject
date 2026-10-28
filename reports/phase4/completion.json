@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "tests_passed": 18,
+  "sqlite_integration": "passed",
+  "postgresql_integration": "passed; isolated PostgreSQL 17.8 cluster stopped and removed",
+  "live_server": "http://127.0.0.1:8000",
+  "docs": "http://127.0.0.1:8000/docs",
+  "live_server_database": "SQLite",
+  "live_real_model_upload": "passed",
+  "docker_compose_config": "validated",
+  "docker_image_build": "not executed",
+  "training_started": false,
+  "model_checksums_unchanged": true,
+  "rul": "simulator-based demonstration; unknown without declared exposure and sufficient history"
+}

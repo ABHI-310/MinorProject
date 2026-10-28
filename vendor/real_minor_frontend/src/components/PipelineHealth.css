@@ -1,0 +1,76 @@
+.health-card {
+  padding: 14px 18px;
+}
+
+.health-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.health-card__title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.health-check-icon {
+  color: #16a34a;
+}
+
+.health-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.health-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  padding: 4px 0;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.health-row:last-child {
+  border-bottom: none;
+}
+
+.health-label {
+  font-family: var(--font-mono);
+  color: #64748b;
+  font-weight: 500;
+}
+
+.health-value-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.health-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.health-dot--green {
+  background: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+.health-value {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.health-value--synced {
+  color: #059669;
+}

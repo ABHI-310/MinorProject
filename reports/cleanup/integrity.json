@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "historical_hashes_checked": 11413,
+  "kaggle_zip_unchanged": true,
+  "package_counts": {
+    "source/train/full": 480,
+    "source/train/crop": 470,
+    "source/val/full": 120,
+    "target/train/full": 3606,
+    "target/val/full": 403,
+    "source/train/reviewed_background": 3
+  },
+  "training_started": false
+}

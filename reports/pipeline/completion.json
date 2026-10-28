@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "frontend_base_commit": "50c12b383fe2f3453730772c02dd5884e09b3e6e",
+  "original_files_unchanged": true,
+  "live_frontend": "dashboard_integration",
+  "model_sha256": {
+    "phase1_final": "79170e0bf457afc6a8ab40bb05e2539b5724d0e7ac6d074ad78a252a32a69c00",
+    "phase2/current_target": "9de3ade1e902ec97f2f3efb3081933d09244523f9cb29335bef45d73c940bdda"
+  },
+  "training_started": false,
+  "backend_tests": {
+    "passed": 23
+  },
+  "browser_checks": [
+    "Real JPEG upload through native file chooser",
+    "Target detection returned with actual box and confidence",
+    "Inspection persisted and reopened after browser reload",
+    "Saved overlay displayed",
+    "Dashboard counts increased after upload",
+    "Equipment filtering and empty state",
+    "Live analytics",
+    "Actual checkpoint metrics",
+    "Separate labelled synthetic lifecycle"
+  ],
+  "url": "http://127.0.0.1:8000",
+  "start_command": ".venv/bin/python scripts/run_project.py",
+  "limitations": [
+    "Model accuracy unchanged",
+    "Maintenance estimates use simulator assumptions; unknown without sufficient exposure",
+    "Recent history limited to 100; totals cover full 30-day window",
+    "Docker image build not executed"
+  ]
+}

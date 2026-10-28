@@ -1,0 +1,28 @@
+{
+  "status": "local_phase_2_passed",
+  "kaggle_gpu_verified": false,
+  "test_command": "python -m pytest tests/test_revamp_audit.py tests/test_revamp_phase2.py tests/test_training_pause_resume.py -q",
+  "tests_passed": 49,
+  "sha256": {
+    "revamp/package.py": "0645323e77d3b4bde52a9698430f485261cb323e5ae2429aac8e3a0f35a5dc67",
+    "revamp/audit.py": "a57c9ca17b2fc889b7bf9e6b85cabbdff2f6a451e1440ea620233c94d210c573",
+    "revamp/__init__.py": "35648be55b79bf5b9573ee55b6bd27e7e3c3942a17836c70fc99e29a3f863576",
+    "revamp/runtime.py": "517449133ec9d58e251537fc6b233292fc167114e908ae94c4121ff79ff4dbfd",
+    "revamp/checkpoints.py": "d235ebf57d1d4581e9cc38d52ea6fe727ff333f0b620ffb73286769cc9dbc419",
+    "revamp/prepare.py": "9408b523d6ad5219329b5b7164d2e81956764bcc65c977a42f30791b5e73e3d7",
+    "revamp/smoke.py": "fe3fdeaba29f7c108f3c79729daca8e3ac3f0f162af5261c35028917d889da1f",
+    "tests/test_revamp_phase2.py": "ae5fda82098ed9f67b6fbc8ced83a109b81999266328aaa0cc5ac6c29a0a71d6",
+    "reports/revamp/phase2_summary.md": "4dca351b3321ff7d0245e7abcbf9380434f9fc85bf3c1dc9ff87167681a7c146",
+    "reports/revamp/phase2_background_review.json": "5be9debe6421a46d1bfd5b5089beade22ad7d1125cecb1d5c5c6fa5cd434a757",
+    "reports/revamp/phase2_crop_review.jpg": "2ed229d23ca87b56f5802ecae03b831a01cb42c3e1943e75c38dc50bce13fa92",
+    "reports/revamp/phase2_smoke_v2/report.json": "258383a86fc4b945f3605d7e2e386b20a97897dfc9f235af41c1503c218126b5",
+    "reports/revamp/phase2_smoke_v2/fresh_run/resume_verified.json": "4f7e064b74c3bcbe9e9399100ca7c6df6e26a2818ecd1573354e6a2b98da7ff7",
+    "reports/revamp/phase2_smoke_v2/fresh_run/training/results.csv": "054b4a250112d24d9ca95b9324a292bb7936d458e51a37ec7f2b5c2b0a669f62",
+    "reports/revamp/phase2_notebook_check/setup_check.json": "83be99070a5cddee50b3504428772b52f1b6a7047d62ba3c1c0d4463fc704c0f",
+    "reports/revamp/phase2_notebook_check/working/pcb_environment.json": "8c7dc9073ca42c63f536497aae07391488c6ddeca46a1e83daf727f1ea8d9463",
+    "reports/revamp/phase2_verification/geometry.json": "a38e805777472c5c86694a65572aed197cd01fe3c3e2eac695edd5e6a88398d8",
+    "reports/revamp/phase2_verification/preservation.json": "0876ac20f9c993d84dfc927b436ee5560f8c711537d7754238b30e7c0706096f",
+    "data/revamp_kaggle_v2/build_report.json": "a7ab2ef5936db59d39502aa178b52be60b98e0f9e098f39a62af9cca09dc315d",
+    "data/revamp_kaggle_v2/PCB_Revamp_Phase2_Kaggle.ipynb": "c3a4e29b9bfd6434569ef10af07945d19b71a404af2c80b7dc20a9cd07d2ca4c"
+  }
+}

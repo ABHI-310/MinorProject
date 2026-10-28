@@ -1,0 +1,25 @@
+Technique,Pipeline phase,Expected qualitative benefit,Evidence strength,Compute cost,Implementation effort,Priority
+Correct specialist/class coverage,Deployment,Stops using an unsupported specialist,Confirmed local audit,None,Low,Critical
+Mixed source/target replay,Training data,Restore both distributions and missing_hole,Direct local failure evidence; recovery untested,One GPU run,Medium,High
+Parent/board-disjoint splits,Evaluation,Avoid inflated generalization claims,Source groups verified; target IDs unavailable,Low,Low,Critical
+Semantic label review and hard negatives,Data quality,Reduce false positives and wrong supervision,No original negative images; labels not semantically rechecked,Low compute; manual review,Medium,High
+Training-only defect/context crops,Scale,Preserve thin-defect visual detail,Relevant literature; local full recovery untested,More training views,Medium,High
+Per-class validation thresholds,Postprocessing,Explicit precision/recall tradeoff,Measured sensitivity on fixed samples,Low,Low,High
+Hard-example mining and active learning,Data collection,Target actual failure modes,Standard detection error-analysis rationale,Manual annotations,Medium,High
+Class-aware sampling/weighting,Training,Help missing-hole and short coverage,Measured instance imbalance; gain untested,One ablation,Medium,Medium
+Higher resolution 960 versus 640,Preprocessing,Reduce downsampling loss,Known scale mismatch; requires controlled comparison,Up to ~2.25x pixel area,Low,High
+Tiled inference with current target,Inference,Hypothesized small-object recovery,Tested setting failed with zero correct matches,216 passes for 6 images,Medium,Rejected for now
+Mild illumination/geometry augmentation,Augmentation,Improve limited robustness,Physical plausibility; no measured repair gain,Low,Low,Medium
+Aggressive blur/mosaic/mixup/erasing,Augmentation,Uncertain; may erase gaps,Risk to tiny-defect labels,Low to medium,Low,Defer
+Focal or class-balanced loss,Loss,Focus hard/rare cases,Published detection evidence; project gain untested,Low runtime; one training ablation,Medium,Medium
+P2/small-stride head,Architecture,Preserve small-object features,Multi-scale feature literature; project gain untested,Higher activation memory,High,Medium
+YOLOv8m or RT-DETR,Architecture,More capacity or alternate detection approach,COCO evidence only; no PCB validation,More GPU memory/training,Medium to high,Medium
+Soft-NMS or weighted box fusion,Postprocessing,Recover overlapping valid candidates,Published evidence; cannot fix absent candidates,Low to multiple model passes,Medium,Low
+Random/Optuna search,Hyperparameters,Target sensitive settings efficiently,Published random-search evidence,Several GPU trials,Medium,After data repair
+ASHA/Hyperband/PBT,Hyperparameters,Allocate many tuning trials,Published generic tuning evidence,Parallel runs; scarce budget,High,Defer
+Pseudo-labeling / Soft Teacher,Semi-supervision,Use extra unlabelled in-domain data,Published COCO evidence; current teacher unreliable,Teacher computation,High,Experimental
+DINOv2 / contrastive pretraining,Representation,Potential domain transfer,Published transfer evidence; needs detector adaptation,High,High,Experimental
+Template registration and subtraction,Classical vision,Find differences against a known good board,Applicable only with aligned reference,Low to medium,Medium,Conditional
+Segmentation with Dice/IoU,Task change,Precise crack masks,Needs pixel annotations absent here,New annotation/training effort,High,Defer
+MMD/domain alignment,Training objective,Hypothesized cross-domain representation,Existing project experiment did not improve,Additional tuning,High,Experimental
+Calibration and export parity,Deployment evaluation,Honest confidence and consistent deployment,Published calibration motivation; parity must be checked,Low to medium,Medium,Before release

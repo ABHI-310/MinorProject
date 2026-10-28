@@ -1,0 +1,29 @@
+# Local environment and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+node_modules/
+.DS_Store
+*.log
+
+# Datasets, runtime state and generated training artifacts
+data/**
+!data/README.md
+!data/.gitkeep
+artifacts/**
+!artifacts/README.md
+archive/**
+!archive/README.md
+
+# Large binary evidence; keep small reports and provenance in version control
+reports/**/*.pt
+reports/**/*.zip
+reports/**/*.npy
+reports/**/verification_images/
+downloads/

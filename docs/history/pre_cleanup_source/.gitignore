@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data and artifacts (large / generated)
+data/**
+!data/.gitkeep
+runs/**
+!runs/.gitkeep
+weights/*.pt
+weights/*.onnx
+weights/*.pth
+!weights/.gitkeep
+reports/*.json
+reports/*.csv
+reports/*.png
+
+# Frontend / OS
+node_modules/
+.DS_Store
+*.log

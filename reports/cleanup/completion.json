@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "date": "2026-10-26",
+  "repository_only": true,
+  "downloads_touched": false,
+  "tests_passed": 88,
+  "sha256": {
+    "README.md": "ab17468b22d72358cf080b018b9668a49e8c4606ad320cf7ed805f72bfaf5fef",
+    "docs/REPOSITORY_LAYOUT.md": "65080dde2cd249743268c097b0b3334c3fb808e510ddee4071ea24e8adeb8ae9",
+    "reports/cleanup/SUMMARY.md": "500729ac303be0420a065f09a8d52052e8293a9c36cc317567c11bdd76eb6247",
+    "reports/cleanup/moves.json": "d2511b2d2ea86a4ac7cfee80f43b9ffa101e4ae89a0da18bb6c4156fb3a822ed",
+    "reports/cleanup/migration_verification.json": "fc86a463f6d8ca074b40748c1c88335eec41c16b8f02d9b7ff5c1c1d497ed999",
+    "reports/cleanup/integrity.json": "58b4ac95adbaf06f656cb536ee74441152d352ad73da2fbf9456481293d75f62",
+    "reports/cleanup/backend_check.json": "d678b18612784940d9f6413da30c5c90b20bbe9a4186715e96a2f05642fd453c",
+    "reports/cleanup/symlink_updates.json": "73e2008848aaf34c32572484b711f1a764d269c641e7568aa7414028bacab7bc",
+    "configs/legacy_paths.json": "63857c8f55fefdef5c80d4c0f7219917d2c4cfcf8ad4918d17b4d86a3850e8a4",
+    "configs/datasets.json": "23953202a7fbe8a5baef06bb8a1464931f79132bf1884a59939d4aa21c843943",
+    "notebooks/PCB_Revamp_Phase2_Resume_Kaggle.ipynb": "ffb429e91a485347bd32a40f99fd15d62c1845588010cded55dd9345200be62d",
+    "scripts/manage.py": "2ec21ed984f9e1e167f958caf0f73177b8f96d7b20c8b2545d528a6c6f727bdf",
+    "scripts/revamp/paths.py": "b4329eded95e37d9d9277f52c3a6619507a3db196b4b63e4b530fbdd5f7cbb58"
+  }
+}
