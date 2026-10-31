@@ -1,3 +1,21 @@
+# Current software snapshot — 2026-10-31
+
+This section supersedes older pending-phase statements and the historical YOLO-PCB replacement direction below. Historical entries are retained as experiment history.
+
+- App: upload inference, saved inspections, equipment-specific trends, model comparison and a maintenance review panel are implemented. Local CPU API checks and frontend builds passed.
+- Current recommended app candidate: COCO → K500. Existing source, target and PCB-source K500 models remain selectable.
+- Fixed development evaluation: 992 images, 1849 boxes, confidence .25, image size 640, NMS .4. COCO → K500 mAP50 64.57%, mAP50–95 28.36%, pooled precision 67.18%, recall 63.87%, F1 65.48%. Evidence: `reports/revamp/k500_coco_development/report.json`.
+- Original PCB-source K500 development result: mAP50 57.12%, precision 67.68%, recall 55.16%. Evidence: `reports/revamp/k500_development_evaluation/report.json`.
+- COCO K100 baseline at validation NMS .7: mAP50 41.38%, mAP50–95 15.91%; verified downloads and original selection: `reports/revamp/k100_coco_download_verification.json`. Training-sample mAP50 98.31% was reported by the user; it is not unseen-data accuracy.
+- Augmented K100 validation mAP50 41.74%, mAP50–95 17.05% is user-reported; recovery archive checksums passed (`reports/revamp/k100_aug_download_verification.json`). Minor aggregate improvement does not establish repeatability. K100 tuning is paused as an implementation priority, not treated as a solved few-shot objective.
+- Maintenance review compares three recent against three previous inspections at the same model/hash/confidence, requiring declared board exposure. Illustrative trigger: rate at least doubles and rises by >=2 detections/100 boards. This is a review rule, not a calibrated machine-failure alert.
+- `/api/maintenance/demo` supplies a labelled fabricated scenario without saving inspections. Simulated health/RUL remains separate from measured lifetime.
+- Fixed presentation images and expected labels: `examples/k500_demo/manifest.json`. Demo instructions: `docs/DEMO_WALKTHROUGH.md`.
+
+Open gaps: adapter/MMD benefit unproven; 50–100-label objective not achieved at strong accuracy; no validated automatic reconfiguration/re-adaptation; no clean-board false-alarm benchmark; physical-board independence UNKNOWN; no untouched final test; no calibrated real-equipment RUL. Hardware remains future scope per user direction.
+
+---
+
 # Implementation status
 
 ## Phase 1 — complete, with documented limitations
@@ -190,3 +208,13 @@ inspection matched the baseline's exact weight hash to its original args: it
 used augmentation and nbs=64, unlike the no-augmentation/nbs=4 new experiments.
 Those differences need controlled investigation; a causal conclusion is not
 established by the current runs.
+
+
+## YOLO-PCB replacement validation — 2026-10-29
+
+Completed source validation (120 images), DsPCBSD+ validation (403 images), and isolated API/latency/stress checks. Decision: no unconditional replacement. Candidate matched 531/562 source boxes at confidence 0.90, but zero of 746 target boxes at confidence 0.25 at both 608 and 960 input sizes. External source training overlap and clean-board false-positive rate remain unestablished. Active models preserved. Full evidence and reproduction commands: `reports/revamp/yolo_pcb_replacement_validation.md`.
+
+
+## Replacement development direction — 2026-10-29
+
+Proceed with mixed-domain fine-tuning of YOLO-PCB as the replacement development path. Existing app checkpoints are historical comparison artifacts. The six-update source/target gradient and optimizer-state probe passed after re-enabling exported checkpoint gradients and casting legacy loss grid-index clamp bounds to integer. This is functional training compatibility evidence only; no full retraining or accuracy improvement is claimed. Recipe, data gaps and evaluation requirements: `reports/revamp/yolo_pcb_replacement_path.json`.

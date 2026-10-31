@@ -8,8 +8,10 @@ export default function PipelineControls({onInspect}) {
       <label>Equipment ID<input aria-label="Equipment ID" disabled={inferenceBusy} value={draft} onChange={e=>setDraft(e.target.value)} pattern="[A-Za-z0-9][A-Za-z0-9_.\-]{0,49}" required maxLength={50}/></label>
       <button className="topbar-btn topbar-btn--white" type="submit" disabled={inferenceBusy}>Apply equipment</button>
     </form>
-    <label>Detector<select aria-label="Detector" disabled={inferenceBusy} value={model} onChange={e=>setModel(e.target.value)}>
+    <label>Detector<select aria-label="Detector" disabled={inferenceBusy} value={model} onChange={e=>{setModel(e.target.value);if(['k500','k500_coco'].includes(e.target.value))setConfidence(0.25);}}>
       <option value="source">Full bare board · all 6 labels</option><option value="target">DsPCBSD+ close-up · 5 labels</option>
+    <option value="k500">K500 adapted candidate · 5 labels</option>
+    <option value="k500_coco">COCO → K500 · 5 labels</option>
     </select></label>
     <label>Confidence threshold<input aria-label="Confidence threshold" disabled={inferenceBusy} type="number" min="0.001" max="1" step="0.001" value={confidence} onChange={e=>setConfidence(Number(e.target.value))}/></label>
     <button className="topbar-btn topbar-btn--brown" onClick={onInspect}>Inspect a PCB</button>

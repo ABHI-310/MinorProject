@@ -1,4 +1,4 @@
-"""Load only the verified source and supervised target checkpoints."""
+"""Load only the verified source, supervised target, and K500 candidate checkpoints."""
 from pathlib import Path
 import base64
 import hashlib
@@ -14,13 +14,13 @@ os.environ.setdefault('MPLCONFIGDIR',str(ROOT/'data/runtime/matplotlib'))
 
 class ModelRegistry:
     def __init__(self):
-        self.folders={'source':ROOT/'artifacts/models/source','target':ROOT/'artifacts/models/target'}
+        self.folders={'source':ROOT/'artifacts/models/source','target':ROOT/'artifacts/models/target','k500':ROOT/'artifacts/models/k500','k500_coco':ROOT/'artifacts/models/k500_coco'}
         self.loaded={};self.lock=RLock()
 
     @staticmethod
     def canonical(name):
         name='target' if name=='adapted' else name
-        if name not in ('source','target'):raise ValueError('model_type must be source or target (adapted is a legacy alias)')
+        if name not in ('source','target','k500','k500_coco'):raise ValueError('model_type must be source, target, k500, or k500_coco (adapted is a legacy alias)')
         return name
 
     def list_models(self):
@@ -39,6 +39,15 @@ class ModelRegistry:
                 'evaluation':'DsPCBSD+ development set, 992 images' if is_target else 'PKU source holdout, 93 images',
                 'method':'larger-label supervised fine-tuning' if is_target else 'source-domain supervised training',
                 'image_size':info.get('image_size'), 'loaded':name in self.loaded})
+            if name in ('k500','k500_coco'):
+                records[-1].update(model_name='YOLOv8s COCO → K500' if name=='k500_coco' else 'YOLOv8s K500 adapted candidate',
+                    map_score=info.get('validation_mAP50'), map50_95=info.get('validation_mAP50_95'),
+                    precision=info.get('operating_point',{}).get('precision'),
+                    recall=info.get('operating_point',{}).get('recall'),
+                    evaluation='Target validation, 403 images; settings selected on this set, not a final test',
+                    method=('COCO-pretrained detector fine-tuned on 500 labelled target images' if name=='k500_coco' else 'PCB-source adaptation using 500 labelled target images'),
+                    operating_point=info.get('operating_point'), limitations=info.get('limitations',[]),
+                    nms_iou=info.get('inference',{}).get('iou'))
         return records
 
     def infer(self,image,model_type,confidence,annotate):
@@ -58,8 +67,10 @@ class ModelRegistry:
                 self.loaded[name]=(model,info)
             model,info=self.loaded[name];torch.set_num_threads(4)
             start=time.perf_counter()
+            inference=info.get('inference',{})
+            options={key:inference[key] for key in ('iou','rect','max_det','agnostic_nms','augment') if key in inference}
             result=model.predict(source=image,imgsz=info['image_size'],conf=confidence,
-                classes=info.get('evaluated_class_ids'),device=os.getenv('PCB_DEVICE','cpu'),verbose=False)[0]
+                classes=info.get('evaluated_class_ids'),device=os.getenv('PCB_DEVICE','cpu'),verbose=False,**options)[0]
             elapsed=(time.perf_counter()-start)*1000
             detections=[{'class_id':int(b.cls.item()),'class_name':model.names[int(b.cls.item())],
                 'confidence':float(b.conf.item()),'bbox':[float(v) for v in b.xyxy[0].cpu().tolist()]} for b in result.boxes]

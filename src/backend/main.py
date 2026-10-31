@@ -1,5 +1,6 @@
 """Verified PCB inference, persistent inspection history and labelled simulated RUL."""
 from __future__ import annotations
+from backend.maintenance import quality_trend, synthetic_review_demo
 
 from contextlib import asynccontextmanager
 from functools import lru_cache
@@ -189,6 +190,7 @@ def create_app(database_url=None,registry=None,image_store=None):
     def dashboard(equipment_id: str=Query('EQP_001',pattern=EQUIPMENT_PATTERN),days: int=Query(30,ge=1,le=30)):
         result=database.dashboard_metrics(equipment_id,days)
         result['models']=registry.list_models()
+        result['maintenance_trend']=quality_trend(result['history'])
         result['health']=health()
         result['health']['device']=os.getenv('PCB_DEVICE','cpu')
         return result
@@ -208,6 +210,10 @@ def create_app(database_url=None,registry=None,image_store=None):
         return {'equipment_id':equipment_id,'synthetic':True,'failure_observed':item['failure_observed'],
                 'failure_cycle':item['failure_cycle'],'cycle_unit':'100 simulated boards',
                 'timeline':lifecycle_rows(item,'simulation')[:limit]}
+
+    @api.get('/maintenance/demo')
+    def maintenance_demo():
+        return synthetic_review_demo()
 
     @api.post('/adapt',status_code=410)
     def retired_training():

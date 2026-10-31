@@ -1,0 +1,12 @@
+{
+  "source": "User-pasted Kaggle results; downloaded local archive contains only epochs 1\u20135",
+  "best_epoch_from_paste": 6,
+  "best_source_ap50": 0.9684,
+  "best_target_ap50": 0.2506,
+  "stopped_epoch": 14,
+  "stop_reason_inferred_from_runner": "Eight consecutive epochs without improvement of harmonic source/target AP50 score",
+  "local_downloaded_best_epoch": 4,
+  "local_epoch4_training_ap50": 0.7170007785185681,
+  "local_epoch4_target_validation_ap50": 0.2436283466115669,
+  "next_experiment": "Same K100 image IDs/settings/initialization, mild training-only geometric and photometric augmentation; separate output folder; five-epoch pilot"
+}

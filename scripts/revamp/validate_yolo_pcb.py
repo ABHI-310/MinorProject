@@ -40,7 +40,7 @@ def main():
     from ultralytics import YOLO
     configs=[('yolo_pcb_608',BASE/'JiaLim98/weights/baseline_fpn_loss.pt',608),('yolo_pcb_960',BASE/'JiaLim98/weights/baseline_fpn_loss.pt',960),('app_baseline_960',ROOT/'artifacts/models/source/model.pt',960)]
     if args.dataset=='target':
-        configs=[c for c in configs if c[0]!='yolo_pcb_608']
+        configs.append(('app_target_640',ROOT/'artifacts/models/target/model.pt',640))
     for name,weights,size in configs:
         cached=out/(name+'.json')
         if cached.exists():

@@ -24,7 +24,10 @@ def main():
     build=ROOT/'data/runtime/dashboard'
     missing=[name for name in ['fastapi','uvicorn','sqlalchemy','ultralytics','multipart','PIL'] if importlib.util.find_spec(name) is None]
     if missing:raise SystemExit('Missing packages: '+', '.join(missing)+'. Install configs/requirements.txt in the project environment.')
-    for folder in [ROOT/'artifacts/models/source',ROOT/'artifacts/models/target']:
+    folders=[ROOT/'artifacts/models/source',ROOT/'artifacts/models/target']
+    for candidate in ('k500','k500_coco'):
+        if (ROOT/'artifacts/models'/candidate).exists():folders.append(ROOT/'artifacts/models'/candidate)
+    for folder in folders:
         info=json.loads((folder/'model_info.json').read_text())
         if hashlib.sha256((folder/'model.pt').read_bytes()).hexdigest()!=info['checkpoint_sha256']:
             raise SystemExit('Model checksum mismatch: '+str(folder))

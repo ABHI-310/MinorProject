@@ -1,0 +1,15 @@
+{
+  "archive_checksums_verified": true,
+  "completed_epochs": 40,
+  "signature": "1abdcba397f47b7fcb93e601bef197cc42cb25938c5732a70ff23b817233a1f1",
+  "standalone_candidates": [
+    [
+      "downloads/intermediate/best.pt",
+      "c05a9c35608076e0b0af158ac4ffcabd954f3adfa6928552387e35e875615f6d"
+    ],
+    [
+      "downloads/intermediate/best (2).pt",
+      "330a9d8000d3045403fa31fce17d4603fe7426fccbb7f68bad7d77180ca7f3f0"
+    ]
+  ]
+}

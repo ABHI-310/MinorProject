@@ -324,3 +324,13 @@ experiment 1 and the retained baseline. Keep the existing review gate and never
 promote automatically. If results fail to improve, inspect validation predictions
 before deciding on a separate augmentation experiment or model change. No test
 images or external dataset changes are introduced here.
+
+
+## YOLO-PCB mixed-domain replacement pilot
+
+Notebook: `notebooks/YOLO_PCB_Mixed_Domain_Kaggle.ipynb`. Inputs: `artifacts/kaggle/yolo_pcb_mixed_v1/pcb_yolo_mixed_training_v1.zip` and the existing `artifacts/kaggle/phase2_v2/pcb_revamp_phase2.zip`. Select a GPU and run all cells. The first run pauses after epoch 5 of a fixed 40-epoch schedule. Download resume.zip, history.json, training.log and initial_validation.json. Review both domains before extending STOP_AFTER_EPOCH to 40. An unchanged recipe resumes optimizer/scheduler state; a fresh session can restore the uploaded resume.zip. Full training/GPU accuracy is not yet verified. Local fresh-process recovery matched uninterrupted weights exactly in a two-epoch functional probe; see `artifacts/verification/yolo_pcb_mixed_runner/verification.json`.
+
+
+## Current few-shot notebook — v2 FP32 (supersedes mixed v1)
+
+Use `notebooks/YOLO_PCB_Few_Shot_Kaggle.ipynb` with `artifacts/kaggle/yolo_pcb_fewshot_v2/pcb_yolo_fewshot_training_v2.zip` and the existing phase-2 data package. Defaults: 50 unique target training images total (not per-board shots), 480 source images, FP32, five-epoch pause. Selection uses training labels only; 50-image selection is a subset of the 100-image selection. Do not restore fully supervised AMP v1 checkpoints into this experiment. New outputs live in `/kaggle/working/pcb_yolo_fewshot_v2/`. GPU stability remains to be checked on Kaggle; four regression checks and CPU fresh-process recovery passed locally.

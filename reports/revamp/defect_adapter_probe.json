@@ -1,0 +1,32 @@
+{
+  "scope": "Random-input CPU architecture and gradient check only; no training or accuracy claim",
+  "source_predictions_preserved_at_initialization": true,
+  "backbone_gradients_absent": true,
+  "adapter_gradient_sums": {
+    "15": 0.18020698428153992,
+    "18": 0.1648542433977127,
+    "21": 0.08306535333395004
+  },
+  "feature_shapes": {
+    "15": [
+      2,
+      128,
+      16,
+      16
+    ],
+    "18": [
+      2,
+      256,
+      8,
+      8
+    ],
+    "21": [
+      2,
+      512,
+      4,
+      4
+    ]
+  },
+  "adapter_parameters": 58336,
+  "alignment_loss": 0.011258085258305073
+}

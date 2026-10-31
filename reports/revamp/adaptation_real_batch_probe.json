@@ -1,0 +1,19 @@
+{
+  "scope": "One CPU real-image/label optimization step; not GPU training or accuracy evidence",
+  "geometry": "128x128 direct square resize for plumbing only; normalized labels preserved",
+  "source": "images/train/source__01_mouse_bite_01__full.jpg",
+  "target": "images/train/target__0406923__full.jpg",
+  "source_boxes": 3,
+  "target_boxes": 3,
+  "total_loss": 0.27308183908462524,
+  "loss_details": {
+    "detection": 0.23290352523326874,
+    "alignment": 0.4017832279205322,
+    "shared_classes": [
+      1
+    ],
+    "alignment_active": true
+  },
+  "trainable_parameters": 2176690,
+  "adapter_parameters": 58336
+}

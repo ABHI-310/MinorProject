@@ -1,0 +1,536 @@
+{
+  "status": "PASS",
+  "role": "Functional demonstration on familiar validation images; not independent accuracy",
+  "checkpoint_sha256": "b79737ec6ad99626f4c21be904e91a5495fd986723c22da65ab3dbeacca46722",
+  "real_history_modified": false,
+  "settings": {
+    "confidence": 0.25,
+    "imgsz": 640,
+    "nms_iou": 0.4,
+    "matching_iou": 0.5
+  },
+  "checks": [
+    "10 real CPU model uploads",
+    "original/annotated image retrieval",
+    "saved inspection history",
+    "equipment isolation",
+    "no simulated lifetime from insufficient exposure",
+    "synthetic review alert without history writes"
+  ],
+  "demo_detection_counts": {
+    "tp": 19,
+    "fp": 15,
+    "fn": 6
+  },
+  "images": [
+    {
+      "image": "01_mouse_bite.jpg",
+      "expected": {
+        "mouse_bite": 1,
+        "short": 1
+      },
+      "predictions": [
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.7845903635025024,
+          "bbox": [
+            35.73196792602539,
+            16.13042449951172,
+            49.554317474365234,
+            32.64235305786133
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.7535167932510376,
+          "bbox": [
+            41.257442474365234,
+            40.8167724609375,
+            68.1868667602539,
+            70.91634368896484
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.6900387406349182,
+          "bbox": [
+            61.00897216796875,
+            36.74917984008789,
+            68.09771728515625,
+            49.55782699584961
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+      }
+    },
+    {
+      "image": "02_mouse_bite.jpg",
+      "expected": {
+        "mouse_bite": 1,
+        "open_circuit": 1
+      },
+      "predictions": [
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.7126495242118835,
+          "bbox": [
+            75.01782989501953,
+            108.98727416992188,
+            128.578857421875,
+            128.3667755126953
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "mouse_bite",
+          "confidence": 0.5596329569816589,
+          "bbox": [
+            88.57015228271484,
+            144.2483367919922,
+            118.26605224609375,
+            153.0589141845703
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.29202547669410706,
+          "bbox": [
+            107.73928833007812,
+            108.82388305664062,
+            128.62152099609375,
+            127.78987121582031
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.27668777108192444,
+          "bbox": [
+            75.03116607666016,
+            108.28755950927734,
+            94.97052764892578,
+            127.41708374023438
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 0
+      }
+    },
+    {
+      "image": "03_open_circuit.jpg",
+      "expected": {
+        "open_circuit": 1
+      },
+      "predictions": [
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.7371768951416016,
+          "bbox": [
+            101.31448364257812,
+            108.01620483398438,
+            119.94346618652344,
+            132.20941162109375
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "image": "04_open_circuit.jpg",
+      "expected": {
+        "open_circuit": 1
+      },
+      "predictions": [
+        {
+          "class_id": 1,
+          "class_name": "mouse_bite",
+          "confidence": 0.39089974761009216,
+          "bbox": [
+            92.16983032226562,
+            105.10426330566406,
+            118.2210922241211,
+            123.75242614746094
+          ]
+        },
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.31374475359916687,
+          "bbox": [
+            92.09178161621094,
+            104.47928619384766,
+            117.82960510253906,
+            123.04212188720703
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0
+      }
+    },
+    {
+      "image": "05_short.jpg",
+      "expected": {
+        "short": 2,
+        "spur": 2
+      },
+      "predictions": [
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.6932651400566101,
+          "bbox": [
+            147.4070281982422,
+            100.25344848632812,
+            188.7797393798828,
+            130.44615173339844
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.6565538048744202,
+          "bbox": [
+            68.22979736328125,
+            117.82003784179688,
+            89.32319641113281,
+            133.87124633789062
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.5072004199028015,
+          "bbox": [
+            104.06600952148438,
+            100.28931427001953,
+            124.00480651855469,
+            131.0896453857422
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.40094852447509766,
+          "bbox": [
+            130.28427124023438,
+            138.3170166015625,
+            140.97608947753906,
+            146.37828063964844
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.3279739320278168,
+          "bbox": [
+            27.496408462524414,
+            124.3077621459961,
+            37.799339294433594,
+            132.6779327392578
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.2931329607963562,
+          "bbox": [
+            76.86489868164062,
+            178.84169006347656,
+            89.07427215576172,
+            187.34230041503906
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 0
+      }
+    },
+    {
+      "image": "06_short.jpg",
+      "expected": {
+        "short": 6
+      },
+      "predictions": [
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.8590127229690552,
+          "bbox": [
+            3.866271734237671,
+            49.962913513183594,
+            23.494829177856445,
+            61.092586517333984
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.8422127366065979,
+          "bbox": [
+            29.702672958374023,
+            50.14590835571289,
+            40.873477935791016,
+            61.4363899230957
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.8300305008888245,
+          "bbox": [
+            49.131412506103516,
+            51.325965881347656,
+            96.34318542480469,
+            60.702735900878906
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.6123746037483215,
+          "bbox": [
+            50.6503791809082,
+            19.099624633789062,
+            107.72286224365234,
+            28.208663940429688
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.6066185832023621,
+          "bbox": [
+            50.194435119628906,
+            35.23588562011719,
+            108.0,
+            44.43290328979492
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.32818660140037537,
+          "bbox": [
+            0.7363603711128235,
+            19.233797073364258,
+            64.62890625,
+            28.444602966308594
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.30757319927215576,
+          "bbox": [
+            0.0,
+            35.34370040893555,
+            62.5136833190918,
+            44.654544830322266
+          ]
+        },
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.29715898633003235,
+          "bbox": [
+            49.490047454833984,
+            2.767784595489502,
+            107.2834243774414,
+            12.43421459197998
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 5,
+        "fp": 3,
+        "fn": 1
+      }
+    },
+    {
+      "image": "07_spur.jpg",
+      "expected": {
+        "open_circuit": 1,
+        "spur": 3
+      },
+      "predictions": [
+        {
+          "class_id": 2,
+          "class_name": "open_circuit",
+          "confidence": 0.8083729147911072,
+          "bbox": [
+            109.51728820800781,
+            109.11502075195312,
+            125.24010467529297,
+            143.58126831054688
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.4648520350456238,
+          "bbox": [
+            24.939239501953125,
+            63.900245666503906,
+            35.87287139892578,
+            81.59977722167969
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.41337063908576965,
+          "bbox": [
+            107.87448120117188,
+            141.59164428710938,
+            116.70620727539062,
+            155.36582946777344
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.32535451650619507,
+          "bbox": [
+            25.000329971313477,
+            0.0,
+            36.283363342285156,
+            18.51593589782715
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "image": "08_spur.jpg",
+      "expected": {
+        "spur": 2
+      },
+      "predictions": [
+        {
+          "class_id": 3,
+          "class_name": "short",
+          "confidence": 0.7820966839790344,
+          "bbox": [
+            99.13665771484375,
+            88.90528869628906,
+            131.7190704345703,
+            113.93927001953125
+          ]
+        },
+        {
+          "class_id": 4,
+          "class_name": "spur",
+          "confidence": 0.4972817003726959,
+          "bbox": [
+            19.61850357055664,
+            208.34072875976562,
+            55.241397857666016,
+            226.0
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "image": "09_spurious_copper.jpg",
+      "expected": {
+        "spurious_copper": 1
+      },
+      "predictions": [
+        {
+          "class_id": 5,
+          "class_name": "spurious_copper",
+          "confidence": 0.7868866324424744,
+          "bbox": [
+            99.55046081542969,
+            89.54664611816406,
+            117.43888092041016,
+            117.84415435791016
+          ]
+        },
+        {
+          "class_id": 5,
+          "class_name": "spurious_copper",
+          "confidence": 0.33579587936401367,
+          "bbox": [
+            99.97418212890625,
+            103.50881958007812,
+            145.77154541015625,
+            138.68870544433594
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 1
+      }
+    },
+    {
+      "image": "10_spurious_copper.jpg",
+      "expected": {
+        "mouse_bite": 1,
+        "spurious_copper": 1
+      },
+      "predictions": [
+        {
+          "class_id": 1,
+          "class_name": "mouse_bite",
+          "confidence": 0.45939913392066956,
+          "bbox": [
+            106.67171478271484,
+            122.61184692382812,
+            125.7701187133789,
+            130.9517059326172
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "mouse_bite",
+          "confidence": 0.3534829914569855,
+          "bbox": [
+            106.46835327148438,
+            111.89229583740234,
+            123.84527587890625,
+            128.4377899169922
+          ]
+        }
+      ],
+      "counts": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      }
+    }
+  ]
+}
