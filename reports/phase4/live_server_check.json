@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:8000",
+  "database": "sqlite",
+  "docs_http_status": 200,
+  "real_upload_http_status": 200,
+  "inspection_id": "402a5366-3175-4da4-89c9-d5a3459ad99e",
+  "sample_detections": 1,
+  "checkpoint_sha256": "9de3ade1e902ec97f2f3efb3081933d09244523f9cb29335bef45d73c940bdda",
+  "outlook_status": "exposure_required",
+  "equipment": "DEMO_PCB"
+}

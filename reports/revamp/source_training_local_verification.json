@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "automated_tests": 98,
+  "scope": "CPU synthetic fixture only, 64px; not PCB accuracy or GPU throughput.",
+  "checks": [
+    "Real interruption after epoch 1",
+    "Fresh-folder import and optimizer/epoch resume",
+    "Injected early finish after epoch 2 of 5",
+    "Early-finished ZIP recovered report without training",
+    "Completed report reused",
+    "Checkpoint file hashes and contiguous CSV checked",
+    "Verified pilot source code unchanged"
+  ],
+  "full_kaggle_training_started": false,
+  "notebook_sha256": "5531b527c01c48f2a6c66266f12edb90674773b5b303f71efcd76d64b1da705f"
+}

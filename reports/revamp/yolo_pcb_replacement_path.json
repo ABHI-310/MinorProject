@@ -1,0 +1,69 @@
+{
+  "decision": "Develop the replacement by mixed-domain fine-tuning of YOLO-PCB; previous app models serve only as historical comparison artifacts.",
+  "status": "Training compatibility probe passed; full accuracy-improving training not yet performed.",
+  "classes": [
+    "missing_hole",
+    "mouse_bite",
+    "open_circuit",
+    "short",
+    "spur",
+    "spurious_copper"
+  ],
+  "initial_checkpoint": "artifacts/external_models/yolo_pcb_review/JiaLim98/weights/baseline_fpn_loss.pt",
+  "available_training_data": {
+    "source": {
+      "full_images": 480,
+      "missing_hole_boxes": 325,
+      "domains": "PKU green-board imagery; external checkpoint training overlap unknown"
+    },
+    "target": {
+      "full_images": 3606,
+      "supported_class_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_hole_boxes": 0,
+      "domains": "DsPCBSD+ photographed copper defects"
+    }
+  },
+  "training_proposal_not_validated_recipe": {
+    "strategy": "Fine-tune released checkpoint, initialize a new optimizer; do not resume original authors training schedule. Explicitly enable parameter gradients.",
+    "domain_sampling": "Equal source and target contribution per optimizer update; source replay includes missing hole. Do not let 3606 target images overwhelm 480 source full images.",
+    "imgsz": 608,
+    "batch": 4,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "weight_decay": 0.0005,
+    "max_epochs": 40,
+    "early_stopping_patience": 8,
+    "pilot_epochs": 5,
+    "gpu_budget_policy": "Measure Kaggle throughput and memory in pilot; adjust batch and maximum epochs to available free quota. No training duration guarantee.",
+    "augmentation": "Start with mild lighting and flips, without aggressive mosaic or heavy blur; compare validation losses and small-box recall.",
+    "checkpoints": "Atomic last checkpoint each epoch, optimizer/scheduler/scaler/RNG and metadata; persistent downloadable backups and tested fresh-session resume before long run."
+  },
+  "data_actions": [
+    "Audit source/target class semantics and image-label alignment before mixed packaging.",
+    "Resolve known duplicate/augmentation families before introducing a new split; existing target board independence is unknown.",
+    "Audit Mendeley PCB-Defect as possible independent five-class evaluation; missing pad must never be mapped to missing hole. Provider metadata verified, files not downloaded or audited.",
+    "Acquire and manually review real clean bare-PCB images; no all-clean false-positive benchmark currently exists.",
+    "Acquire independently sourced missing-hole examples before claiming six-class cross-domain accuracy."
+  ],
+  "evaluation": [
+    "Keep source and target metrics separate; report per-class AP50, AP50-95, fixed operating-point precision/recall, and missed defect counts.",
+    "Select checkpoint with balanced domain/class performance, rather than aggregate score dominated by target data.",
+    "Select threshold on validation only; confidence 0.90 is not automatically valid after fine-tuning.",
+    "Retain an untouched final evaluation with independent acquisition/groups; existing development partitions cannot be relabeled as an untouched final test.",
+    "Measure false calls per clean board and probability of any false alarm per board."
+  ],
+  "provisional_acceptance_goals_not_promises": {
+    "operating_precision": 0.9,
+    "operating_recall": 0.85,
+    "per_supported_class_recall_floor": 0.75,
+    "map50": 0.85,
+    "conditions": "Report separately by domain and test protocol; change goals if evidence demonstrates infeasibility. No six-class real-domain claim without missing-hole coverage."
+  },
+  "verified_training_probe": "artifacts/verification/yolo_pcb_finetuning_probe/report.json"
+}

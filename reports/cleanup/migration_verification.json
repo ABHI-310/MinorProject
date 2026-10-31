@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "unchanged_file_records": 111866,
+  "modified_source_records_with_backups": [
+    {
+      "old": "backend/Dockerfile",
+      "current": "configs/Dockerfile",
+      "original_snapshot": "archive/pre_cleanup_source/backend/Dockerfile"
+    },
+    {
+      "old": "backend/main.py",
+      "current": "src/backend/main.py",
+      "original_snapshot": "archive/pre_cleanup_source/backend/main.py"
+    },
+    {
+      "old": "backend/model_registry.py",
+      "current": "src/backend/model_registry.py",
+      "original_snapshot": "archive/pre_cleanup_source/backend/model_registry.py"
+    },
+    {
+      "old": "database/db.py",
+      "current": "src/database/db.py",
+      "original_snapshot": "archive/pre_cleanup_source/database/db.py"
+    },
+    {
+      "old": "preprocessing/preprocessing.py",
+      "current": "src/preprocessing/preprocessing.py",
+      "original_snapshot": "archive/pre_cleanup_source/preprocessing/preprocessing.py"
+    },
+    {
+      "old": "rul_synthesis/export_rul_data.py",
+      "current": "src/rul_synthesis/export_rul_data.py",
+      "original_snapshot": "archive/pre_cleanup_source/rul_synthesis/export_rul_data.py"
+    },
+    {
+      "old": "config.py",
+      "current": "src/config.py",
+      "original_snapshot": "archive/pre_cleanup_source/config.py"
+    },
+    {
+      "old": "revamp/README.md",
+      "current": "docs/TRAINING.md",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/README.md"
+    },
+    {
+      "old": "revamp/STATUS.md",
+      "current": "docs/STATUS.md",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/STATUS.md"
+    },
+    {
+      "old": "revamp/audit.py",
+      "current": "scripts/revamp/audit.py",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/audit.py"
+    },
+    {
+      "old": "revamp/datasets.json",
+      "current": "configs/datasets.json",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/datasets.json"
+    },
+    {
+      "old": "revamp/package.py",
+      "current": "scripts/revamp/package.py",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/package.py"
+    },
+    {
+      "old": "revamp/prepare.py",
+      "current": "scripts/revamp/prepare.py",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/prepare.py"
+    },
+    {
+      "old": "scripts/revamp/README.md",
+      "current": "docs/TRAINING.md",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/README.md"
+    },
+    {
+      "old": "scripts/revamp/STATUS.md",
+      "current": "docs/STATUS.md",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/STATUS.md"
+    },
+    {
+      "old": "scripts/revamp/datasets.json",
+      "current": "configs/datasets.json",
+      "original_snapshot": "archive/pre_cleanup_source/revamp/datasets.json"
+    },
+    {
+      "old": "src/backend/Dockerfile",
+      "current": "configs/Dockerfile",
+      "original_snapshot": "archive/pre_cleanup_source/backend/Dockerfile"
+    }
+  ],
+  "missing_or_unaccounted": [],
+  "downloads_touched": false,
+  "deleted_user_files": 0,
+  "regenerated_python_caches": [
+    {
+      "path": "backend/__pycache__/main.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "backend/__pycache__/model_registry.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "database/__pycache__/db.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "rul_synthesis/__pycache__/export_rul_data.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "revamp/__pycache__/audit.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "revamp/__pycache__/package.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    },
+    {
+      "path": "revamp/__pycache__/prepare.cpython-311.pyc",
+      "reason": "Changed with no matching original snapshot"
+    }
+  ],
+  "note": "Seven compiled Python cache files changed during checks after their source paths/code changed. These are generated caches; all moved source and data bytes are either unchanged or preserved in the source snapshot."
+}

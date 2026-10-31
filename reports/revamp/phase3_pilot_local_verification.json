@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "unit_tests": 94,
+  "scope": "Local CPU functional verification on synthetic 32px fixtures, trained/evaluated at 64px. Not PCB model accuracy or Kaggle throughput.",
+  "checks": [
+    "Actual training interrupted after epoch 1",
+    "Fresh process and folder imported epoch-1 ZIP and resumed at epoch 2",
+    "Three epochs and telemetry exactly once",
+    "All checkpoint hashes verified",
+    "Baseline evaluation retained across recovery",
+    "Final checkpoint rebuilt evaluation/report without training",
+    "Completed report reused without training",
+    "Notebook embedded code matches maintained files"
+  ],
+  "gpu_pilot_executed": false,
+  "notebook_sha256": "044e63ed867cfc3ab3a12aa08373b1fd58c1a2bc0d1051c1a08607abb3d9d418"
+}

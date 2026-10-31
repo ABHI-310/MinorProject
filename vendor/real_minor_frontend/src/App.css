@@ -1,0 +1,103 @@
+/* ============================================================
+   APP CONTAINER — 2-Column Responsive Layout
+   ============================================================ */
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-app);
+}
+
+.main-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Prevents flex children from overflowing */
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 18px 24px 32px;
+  max-width: 1560px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ============================================================
+   DASHBOARD GRID ROWS (2/3 + 1/3 splits)
+   ============================================================ */
+
+.dashboard-grid-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: stretch;
+}
+
+.dashboard-col-trends {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+}
+
+.dashboard-col-trends > * {
+  width: 100%;
+  flex: 1;
+}
+
+.dashboard-col-category {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+}
+
+.dashboard-col-category > * {
+  width: 100%;
+  flex: 1;
+}
+
+.dashboard-col-inspections {
+  min-width: 0;
+  width: 100%;
+}
+
+.dashboard-col-inspections > * {
+  width: 100%;
+}
+
+.dashboard-col-sidebar-stack {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================================
+   RESPONSIVENESS
+   ============================================================ */
+
+@media (max-width: 1200px) {
+  .dashboard-grid-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .dashboard-content {
+    padding: 14px;
+  }
+}

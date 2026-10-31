@@ -1,0 +1,21 @@
+{
+  "role": "development_test_previously_evaluated_not_untouched_final_test",
+  "images": 992,
+  "unique_image_hashes": 992,
+  "labelled_boxes": 1849,
+  "boxes_per_class": {
+    "spur": 810,
+    "spurious_copper": 230,
+    "mouse_bite": 410,
+    "short": 134,
+    "open_circuit": 265
+  },
+  "background_images": 0,
+  "k500_train_exact_overlap": 0,
+  "k500_val_exact_overlap": 0,
+  "all_image_label_manifest_hashes_verified": true,
+  "original_image_bytes_and_COCO_labels_verified": true,
+  "board_independence": "UNKNOWN",
+  "existing_yaml_path": "/Users/abhinavgupta/Developer/MinorProject/data/prepared/target/data.yaml",
+  "note": "Existing YAML points to data/phase2_full_target; use explicit prepared-root configuration for evaluation."
+}

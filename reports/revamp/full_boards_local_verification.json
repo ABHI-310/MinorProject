@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "automated_tests": 102,
+  "scope": "CPU synthetic fixture functional check, not GPU timing or model accuracy.",
+  "checks": [
+    "Training config selects source_full",
+    "Recipe identical to experiment 1",
+    "Old experiment signatures differ",
+    "Real epoch-1 interruption and fresh-folder resume",
+    "Early-finished checkpoint restores without retraining",
+    "Checkpoint hashes and epoch continuity verified",
+    "Experiment 1 source code unchanged"
+  ],
+  "kaggle_run_pending": true,
+  "notebook_sha256": "64e4e76d2cb6154dcbb87d32e89ad212c613d6e0cef3a31765fba64675ade9e7"
+}

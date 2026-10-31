@@ -1,0 +1,92 @@
+{
+  "moved": [
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_results.zip",
+      "sha256": "50f6889501b86804c07bd6c5461d6e68b57ee671ae4e86ed290b5b48000ecfe5"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_original_recovery_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_original_recovery_results.zip",
+      "sha256": "5a602e1ebe8c3d040956d74decc690836cfff502a3414fb8f0348baac305c695"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_roboflow_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_roboflow_results.zip",
+      "sha256": "157ed164fcdbb132e627ce33502496c1a4a21da0cfe4ab34a89d15eddaa8837e"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase2_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase2_results.zip",
+      "sha256": "c1d241601acb3975aee320bba518460513416985d1a99d43c0a93c492fd1e9f4"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase2_plain_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase2_plain_results.zip",
+      "sha256": "aa6e6e19a6cfb1e2b052941de8fd18da5db38873f265150ee502b08416637c0a"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase2_one_shot_results.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase2_one_shot_results.zip",
+      "sha256": "ab0375855ef17d27cde124194254839eee453455748168d4a8b1c9401eb90cdb"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/fresh_run_checkpoint.zip",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/phase2_smoke_resume/fresh_run_checkpoint.zip",
+      "sha256": "451144da66d337fb942c068c2f3096dc71ba80ecce13d93693973193298fa827"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/report.json",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/phase2_smoke_resume/report.json",
+      "sha256": "44de47303727e41eaf11b05a4467fa370fe9d3a35956e938cc061b3e5ebb63b6"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/pcb_environment.json",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/phase2_smoke_resume/pcb_environment.json",
+      "sha256": "496811add37c67c5139c51a65153131c14dfa61be1345181fa5048cd4d91d0d2"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/pause.log",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/phase2_smoke_resume/pause.log",
+      "sha256": "dd4fbb9750dbe36856a90dea61cb879321748a39ce9bbdc12dc400f1130202ac"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/resume.log",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/phase2_smoke_resume/resume.log",
+      "sha256": "f68e4d1657d43b2ee7897b17784efbe6711c57b58754c96ae2b28f0d678c0973"
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_results",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_results",
+      "sha256": null
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_original_recovery_results",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_original_recovery_results",
+      "sha256": null
+    },
+    {
+      "source": "/Users/abhinavgupta/Downloads/phase1_roboflow_results",
+      "destination": "/Users/abhinavgupta/Developer/MinorProject/artifacts/downloaded_runs/historical/phase1_roboflow_results",
+      "sha256": null
+    }
+  ],
+  "verified_duplicate_folders": [
+    {
+      "folder": "phase1_results",
+      "identical_files": 231,
+      "removed_duplicate_bytes": 615537809
+    },
+    {
+      "folder": "phase1_original_recovery_results",
+      "identical_files": 166,
+      "removed_duplicate_bytes": 597825764
+    },
+    {
+      "folder": "phase1_roboflow_results",
+      "identical_files": 136,
+      "removed_duplicate_bytes": 339176100
+    }
+  ],
+  "status": "completed"
+}

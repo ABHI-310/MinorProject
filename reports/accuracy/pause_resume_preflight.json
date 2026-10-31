@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Real YOLOv8s on 11 train/11 validation CPU160 samples; functional evidence only, not accuracy.",
+  "checks": [
+    "Pause button event after completed epoch",
+    "Optimizer retained while paused",
+    "Every-epoch backup ZIP CRC",
+    "Fresh-folder restore using only checkpoint and dataset",
+    "Interrupt during next epoch retains committed progress",
+    "Final-epoch interruption resumes evaluation without retraining",
+    "Resume to original total with CSV epochs 1,2,3 exactly once",
+    "Completed run reused without retraining",
+    "Final results ZIP CRC"
+  ],
+  "workspace": "/var/folders/6m/dzrdcw2s6x5c9dlvq_15wr800000gn/T/pcb-pause-resume-9ofv1fff"
+}

@@ -1,0 +1,50 @@
+{
+  "source": "User-pasted Kaggle output; raw history/checkpoint not downloaded or independently inspected",
+  "epochs": [
+    {
+      "epoch": 0,
+      "source_ap50": 0.9922,
+      "target_ap50": 0.0,
+      "source_ap50_95": 0.7357,
+      "target_ap50_95": 0.0
+    },
+    {
+      "epoch": 1,
+      "source_ap50": 0.9054,
+      "target_ap50": 0.1308,
+      "source_ap50_95": 0.648,
+      "target_ap50_95": 0.0432
+    },
+    {
+      "epoch": 2,
+      "source_ap50": 0.9163,
+      "target_ap50": 0.1454,
+      "source_ap50_95": 0.6625,
+      "target_ap50_95": 0.0505
+    },
+    {
+      "epoch": 3,
+      "source_ap50": 0.9423,
+      "target_ap50": 0.1465,
+      "source_ap50_95": 0.7096,
+      "target_ap50_95": 0.0573
+    },
+    {
+      "epoch": 4,
+      "source_ap50": 0.9635,
+      "target_ap50": 0.1581,
+      "source_ap50_95": 0.7278,
+      "target_ap50_95": 0.0577
+    },
+    {
+      "epoch": 5,
+      "source_ap50": 0.9329,
+      "target_ap50": 0.1311,
+      "source_ap50_95": 0.693,
+      "target_ap50_95": 0.0526
+    }
+  ],
+  "best_epoch": 4,
+  "decision": "Not ready for deployment; diagnose training-set fit before spending further GPU epochs",
+  "next_check": "Evaluate best.pt on exact 50 selected training images without optimizer updates; compare class coverage and training AP against held-out development AP."
+}

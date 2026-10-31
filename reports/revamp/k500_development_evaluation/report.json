@@ -1,0 +1,76 @@
+{
+  "role": "Previously used development test; not an untouched final test",
+  "images": 992,
+  "labelled_boxes": 1849,
+  "checkpoint_sha256": "c05a9c35608076e0b0af158ac4ffcabd954f3adfa6928552387e35e875615f6d",
+  "imgsz": 640,
+  "confidence": 0.25,
+  "nms_iou": 0.4,
+  "matching_iou": 0.5,
+  "matching": "Confidence-ordered class-aware one-to-one",
+  "overall": {
+    "tp": 1020,
+    "fp": 487,
+    "fn": 829,
+    "precision": 0.6768414067684141,
+    "recall": 0.5516495402920497,
+    "f1": 0.6078665077473182
+  },
+  "per_class": {
+    "mouse_bite": {
+      "tp": 206,
+      "fp": 90,
+      "fn": 204,
+      "precision": 0.6959459459459459,
+      "recall": 0.5024390243902439,
+      "f1": 0.5835694050991501,
+      "AP50": 0.541942740943907
+    },
+    "open_circuit": {
+      "tp": 147,
+      "fp": 65,
+      "fn": 118,
+      "precision": 0.6933962264150944,
+      "recall": 0.5547169811320755,
+      "f1": 0.6163522012578616,
+      "AP50": 0.6325001542525193
+    },
+    "short": {
+      "tp": 56,
+      "fp": 33,
+      "fn": 78,
+      "precision": 0.6292134831460674,
+      "recall": 0.417910447761194,
+      "f1": 0.5022421524663677,
+      "AP50": 0.5283793308551925
+    },
+    "spur": {
+      "tp": 466,
+      "fp": 227,
+      "fn": 344,
+      "precision": 0.6724386724386724,
+      "recall": 0.5753086419753086,
+      "f1": 0.6200931470392548,
+      "AP50": 0.5902894531362046
+    },
+    "spurious_copper": {
+      "tp": 145,
+      "fp": 72,
+      "fn": 85,
+      "precision": 0.6682027649769585,
+      "recall": 0.6304347826086957,
+      "f1": 0.6487695749440716,
+      "AP50": 0.5629414794586604
+    }
+  },
+  "limitations": [
+    "Board independence UNKNOWN",
+    "No defect-free images",
+    "Settings fixed from earlier validation"
+  ],
+  "ultralytics": "8.4.142",
+  "torch": "2.7.1",
+  "mAP50": 0.5712106317292968,
+  "mAP50_95": 0.2141722974296425,
+  "seconds": 174.05498504638672
+}

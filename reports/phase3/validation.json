@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "synthetic": true,
+  "equipment": 100,
+  "cycle_records": 39041,
+  "observed_failures": 66,
+  "censored_equipment": 34,
+  "equipment_per_split": {
+    "train": 70,
+    "val": 15,
+    "test": 15
+  },
+  "checks": [
+    "All generated file hashes",
+    "Seed reproduces all scenarios",
+    "Every cycle/health/count/severity record",
+    "First threshold crossing and exact per-cycle RUL",
+    "Unknown exact labels and valid lower bounds for censoring",
+    "Disjoint equipment across CSV partitions",
+    "Partition CSV rows exactly match full dataset"
+  ],
+  "real_world_rul_accuracy_claimed": false,
+  "project_tests_passed": 11,
+  "test_command": ".venv/bin/python -m pytest tests -q"
+}

@@ -1,0 +1,172 @@
+{
+  "cross_split_exact_duplicate_sets": 0,
+  "cross_split_group_leaks": 0,
+  "cross_split_phash_candidates": 0,
+  "datasets": {
+    "source": {
+      "grouping": "board_template_prefix",
+      "source_url": "https://robotics.pkusz.edu.cn/resources/dataset/",
+      "splits": {
+        "test": {
+          "empty_annotations": 0,
+          "groups": [
+            "06",
+            "10"
+          ],
+          "images": 93,
+          "instances": {
+            "missing_hole": 76,
+            "mouse_bite": 78,
+            "open_circuit": 80,
+            "short": 80,
+            "spur": 74,
+            "spurious_copper": 81
+          },
+          "original_verified_images": 93,
+          "role": "development_test",
+          "short_box_side_native_p10_p50_p90": [
+            35.0,
+            53.0,
+            81.0
+          ]
+        },
+        "train": {
+          "empty_annotations": 0,
+          "groups": [
+            "01",
+            "04",
+            "07",
+            "08",
+            "09",
+            "12"
+          ],
+          "images": 480,
+          "instances": {
+            "missing_hole": 325,
+            "mouse_bite": 313,
+            "open_circuit": 319,
+            "short": 330,
+            "spur": 314,
+            "spurious_copper": 321
+          },
+          "original_verified_images": 480,
+          "role": "training",
+          "short_box_side_native_p10_p50_p90": [
+            36.0,
+            54.0,
+            76.0
+          ]
+        },
+        "val": {
+          "empty_annotations": 0,
+          "groups": [
+            "05",
+            "11"
+          ],
+          "images": 120,
+          "instances": {
+            "missing_hole": 96,
+            "mouse_bite": 101,
+            "open_circuit": 83,
+            "short": 81,
+            "spur": 100,
+            "spurious_copper": 101
+          },
+          "original_verified_images": 120,
+          "role": "development_validation",
+          "short_box_side_native_p10_p50_p90": [
+            44.0,
+            60.0,
+            84.90000000000003
+          ]
+        }
+      },
+      "usage": "Academic research only; not public domain. Preserve attribution."
+    },
+    "target": {
+      "grouping": "unknown",
+      "source_url": "https://doi.org/10.6084/m9.figshare.24970329",
+      "splits": {
+        "test": {
+          "empty_annotations": 0,
+          "groups": [],
+          "images": 992,
+          "instances": {
+            "missing_hole": 0,
+            "mouse_bite": 410,
+            "open_circuit": 265,
+            "short": 134,
+            "spur": 810,
+            "spurious_copper": 230
+          },
+          "original_verified_images": 992,
+          "role": "development_test",
+          "short_box_side_native_p10_p50_p90": [
+            8.000399999999999,
+            12.000600000000006,
+            24.001199999999997
+          ]
+        },
+        "train": {
+          "empty_annotations": 0,
+          "groups": [],
+          "images": 3606,
+          "instances": {
+            "missing_hole": 0,
+            "mouse_bite": 1400,
+            "open_circuit": 1053,
+            "short": 563,
+            "spur": 2785,
+            "spurious_copper": 918
+          },
+          "original_verified_images": 3606,
+          "role": "training",
+          "short_box_side_native_p10_p50_p90": [
+            8.000399999999999,
+            12.000600000000006,
+            24.00120000000001
+          ]
+        },
+        "val": {
+          "empty_annotations": 0,
+          "groups": [],
+          "images": 403,
+          "instances": {
+            "missing_hole": 0,
+            "mouse_bite": 156,
+            "open_circuit": 127,
+            "short": 61,
+            "spur": 290,
+            "spurious_copper": 112
+          },
+          "original_verified_images": 403,
+          "role": "development_validation",
+          "short_box_side_native_p10_p50_p90": [
+            8.000399999999999,
+            12.995000000000005,
+            28.00139999999999
+          ]
+        }
+      },
+      "usage": "CC BY 4.0. Preserve author attribution and describe conversions."
+    }
+  },
+  "errors": 0,
+  "limitations": [
+    "Original label agreement is not independent verification of physical truth.",
+    "Target board identities unknown; pHash cannot prove independence.",
+    "Historical test sets are development benchmarks.",
+    "Target missing-hole coverage is absent.",
+    "Normal full-board specificity and camera generalization are unestablished.",
+    "External candidates are not downloaded or validated in Phase 1.",
+    "Sample review is pending and cannot establish whole-dataset annotation quality."
+  ],
+  "new_training_or_inference": false,
+  "phase": 1,
+  "schema_version": 1,
+  "status": "structural_checks_passed_review_required",
+  "structural_checks_passed": true,
+  "training_authorized_by_audit": false,
+  "visual_review_samples": 22,
+  "warnings": 5
+}

@@ -1,0 +1,324 @@
+{
+  "role": "Existing validation examples, not independent test data",
+  "selection": "Seed 42; two per class; exclude reused images; no prediction-based selection",
+  "names": [
+    "missing_hole",
+    "mouse_bite",
+    "open_circuit",
+    "short",
+    "spur",
+    "spurious_copper"
+  ],
+  "images": [
+    {
+      "image": "01_mouse_bite.jpg",
+      "label": "01_mouse_bite.txt",
+      "original": "images/val/target__2959_data__full.jpg",
+      "image_sha256": "a6fe2cfb2b960e9524b3670281b34729f4fd12bfb96155009f210ec11b8152c1",
+      "width": 108,
+      "height": 108,
+      "labels": [
+        [
+          1,
+          0.5139,
+          0.5231,
+          0.2685,
+          0.3796
+        ],
+        [
+          3,
+          0.3889000000000001,
+          0.20370000000000002,
+          0.14810000000000004,
+          0.1852
+        ]
+      ],
+      "expected_counts": {
+        "mouse_bite": 1,
+        "short": 1
+      }
+    },
+    {
+      "image": "02_mouse_bite.jpg",
+      "label": "02_mouse_bite.txt",
+      "original": "images/val/target__S_11463223__full.jpg",
+      "image_sha256": "acc92f39d02650509de31452536c70587968aa6041c8ae93f8101a2668301c8f",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          1,
+          0.4624,
+          0.6527,
+          0.18139999999999998,
+          0.04870000000000003
+        ],
+        [
+          2,
+          0.4491,
+          0.5199000000000001,
+          0.208,
+          0.08410000000000002
+        ]
+      ],
+      "expected_counts": {
+        "mouse_bite": 1,
+        "open_circuit": 1
+      }
+    },
+    {
+      "image": "03_open_circuit.jpg",
+      "label": "03_open_circuit.txt",
+      "original": "images/val/target__S_10377353__full.jpg",
+      "image_sha256": "e1c4c19bbb4f2c1e77d26d130076b3bb869505ac5ee7a034477896205667833e",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          2,
+          0.48450000000000004,
+          0.5332,
+          0.09290000000000001,
+          0.11060000000000005
+        ]
+      ],
+      "expected_counts": {
+        "open_circuit": 1
+      }
+    },
+    {
+      "image": "04_open_circuit.jpg",
+      "label": "04_open_circuit.txt",
+      "original": "images/val/target__Y_004690__full.jpg",
+      "image_sha256": "a13cce90c6cf0db474cca0258588107fdfd1c305001fc1115938f93eadc0d337",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          2,
+          0.46460000000000007,
+          0.4978,
+          0.10619999999999999,
+          0.07519999999999999
+        ]
+      ],
+      "expected_counts": {
+        "open_circuit": 1
+      }
+    },
+    {
+      "image": "05_short.jpg",
+      "label": "05_short.txt",
+      "original": "images/val/target__S_11834059__full.jpg",
+      "image_sha256": "9960af2b5d90cdf787aa982889ec19907b90981f31a613853079d9074ad1bf54",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          3,
+          0.7434,
+          0.5022,
+          0.15930000000000002,
+          0.12830000000000003
+        ],
+        [
+          4,
+          0.3407,
+          0.5553,
+          0.10619999999999999,
+          0.07520000000000004
+        ],
+        [
+          3,
+          0.5155,
+          0.5133,
+          0.11060000000000005,
+          0.12389999999999995
+        ],
+        [
+          4,
+          0.36730000000000007,
+          0.8052999999999999,
+          0.04419999999999998,
+          0.02650000000000002
+        ]
+      ],
+      "expected_counts": {
+        "short": 2,
+        "spur": 2
+      }
+    },
+    {
+      "image": "06_short.jpg",
+      "label": "06_short.txt",
+      "original": "images/val/target__2377_data__full.jpg",
+      "image_sha256": "620c15b2e31f018f7de950a6c8ecaa36a5975e2ac8f2d0c887fbe9c70fd7a667",
+      "width": 108,
+      "height": 108,
+      "labels": [
+        [
+          3,
+          0.12040000000000001,
+          0.5093,
+          0.2222,
+          0.09259999999999999
+        ],
+        [
+          3,
+          0.3287,
+          0.5093,
+          0.12039999999999997,
+          0.09259999999999999
+        ],
+        [
+          3,
+          0.6805999999999999,
+          0.5139,
+          0.4351999999999999,
+          0.10190000000000002
+        ],
+        [
+          3,
+          0.5046,
+          0.36569999999999997,
+          0.9906999999999999,
+          0.08330000000000001
+        ],
+        [
+          3,
+          0.5046,
+          0.21760000000000002,
+          0.9906999999999999,
+          0.08330000000000001
+        ],
+        [
+          3,
+          0.5046,
+          0.0787,
+          0.9906999999999999,
+          0.1019
+        ]
+      ],
+      "expected_counts": {
+        "short": 6
+      }
+    },
+    {
+      "image": "07_spur.jpg",
+      "label": "07_spur.txt",
+      "original": "images/val/target__S_10149406__full.jpg",
+      "image_sha256": "1c3a58b6ce1d6827cc30c70a4fb84353b4e4a60672b69ed3eca8f99155501b25",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          2,
+          0.5133,
+          0.5398,
+          0.08849999999999995,
+          0.15930000000000008
+        ],
+        [
+          4,
+          0.1261,
+          0.31640000000000007,
+          0.0487,
+          0.0841
+        ],
+        [
+          4,
+          0.3739,
+          0.975675,
+          0.05750000000000002,
+          0.048650000000000006
+        ],
+        [
+          4,
+          0.49339999999999995,
+          0.6459999999999999,
+          0.031,
+          0.05309999999999996
+        ]
+      ],
+      "expected_counts": {
+        "open_circuit": 1,
+        "spur": 3
+      }
+    },
+    {
+      "image": "08_spur.jpg",
+      "label": "08_spur.txt",
+      "original": "images/val/target__S_11764682__full.jpg",
+      "image_sha256": "44be0ff5abd488d6661a8300d4821d00249812725223ec523e8853ea4583aa22",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          4,
+          0.5022,
+          0.44469999999999993,
+          0.12830000000000003,
+          0.11059999999999998
+        ],
+        [
+          4,
+          0.17919999999999997,
+          0.9602,
+          0.13719999999999996,
+          0.07959999999999985
+        ]
+      ],
+      "expected_counts": {
+        "spur": 2
+      }
+    },
+    {
+      "image": "09_spurious_copper.jpg",
+      "label": "09_spurious_copper.txt",
+      "original": "images/val/target__S_11767354__full.jpg",
+      "image_sha256": "5a1ad34df612cb092c4613112d5f62a08ea762126ca5a2d660a8c6bdb49f2f5f",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          5,
+          0.49779999999999996,
+          0.49559999999999993,
+          0.2876,
+          0.25660000000000005
+        ]
+      ],
+      "expected_counts": {
+        "spurious_copper": 1
+      }
+    },
+    {
+      "image": "10_spurious_copper.jpg",
+      "label": "10_spurious_copper.txt",
+      "original": "images/val/target__S_11852266__full.jpg",
+      "image_sha256": "9b416f2e5d5a19027efef86f8e238542eed847bdcc028dfee2e14f402c41b7ad",
+      "width": 226,
+      "height": 226,
+      "labels": [
+        [
+          1,
+          0.5111,
+          0.5530999999999999,
+          0.07519999999999999,
+          0.035399999999999994
+        ],
+        [
+          5,
+          0.49340000000000006,
+          0.5022,
+          0.03979999999999999,
+          0.031
+        ]
+      ],
+      "expected_counts": {
+        "mouse_bite": 1,
+        "spurious_copper": 1
+      }
+    }
+  ]
+}

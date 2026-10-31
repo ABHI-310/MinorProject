@@ -1,0 +1,25 @@
+{
+  "reported_on": "2026-10-26",
+  "evidence_source": "User-pasted Kaggle notebook output; checkpoint and environment files not independently inspected",
+  "status": "passed",
+  "seconds": 234.8,
+  "epochs": 80,
+  "training_images": 6,
+  "package_hashes_sha256": "8687e5c1a3b91d3953abe7b10ebe8c793adfdb46f7280be9b8545f9f7ceb1419",
+  "matches_delivered_package": true,
+  "first_5_box_loss": 3.464408,
+  "last_5_box_loss": 0.09284600000000001,
+  "best_train_sample_ap50": 0.995,
+  "scope": "Functional learning and resume check. The same six training crops were used for evaluation; not validation accuracy.",
+  "reported_checks": [
+    "Training paused after epoch one",
+    "Optimizer retained in checksummed ZIP",
+    "Resume in separate Python process and fresh folder",
+    "Optimizer restored at saved epoch",
+    "CSV contains each planned epoch exactly once"
+  ],
+  "gpu_used": null,
+  "environment_versions": null,
+  "full_model_training_completed": false,
+  "next_phase": "Phase 3: capture environment, timed GPU pilot, reproduce specialist validation baselines, then bounded source/target training."
+}

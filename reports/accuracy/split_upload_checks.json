@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "parts": 4,
+  "original_archive_bytes": 1073456737,
+  "original_archive_sha256": "2c4823f122e22b8ba37833bd76d96d26db96d0b633df0db9f74572fa0676204a",
+  "roundtrip_byte_identity": true,
+  "zip_crc": "passed",
+  "notebook_code_syntax": "passed",
+  "training_recipe": "unchanged",
+  "production_models": "unchanged"
+}

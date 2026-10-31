@@ -1,0 +1,152 @@
+{
+  "reviewer": "Codex visual review (assistant, not an expert or human certification)",
+  "reviewed_on": "2026-10-25",
+  "candidates_sha256": "eb8ae6a9cb4e71295d0b6fc329378036ea0efb88fc332de1af80275e2833404c",
+  "scope": "All 24 crops viewed at native 512-pixel size in four contact sheets. Conservative pilot only. No normal-board or real-world false-positive claim.",
+  "decisions": [
+    {
+      "image_sha256": "e56ba05cddf7608b7de8f3ab8fdf1e4e0a153a1bf46563b0342b5e0163327b1f",
+      "parent_id": "source/01_missing_hole_01.jpg",
+      "decision": "exclude",
+      "reason": "Dense textured surface is not a useful confidently normal pilot sample; conservative exclusion."
+    },
+    {
+      "image_sha256": "e56ba05cddf7608b7de8f3ab8fdf1e4e0a153a1bf46563b0342b5e0163327b1f",
+      "parent_id": "source/01_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Dense textured surface is not a useful confidently normal pilot sample; conservative exclusion."
+    },
+    {
+      "image_sha256": "e56ba05cddf7608b7de8f3ab8fdf1e4e0a153a1bf46563b0342b5e0163327b1f",
+      "parent_id": "source/01_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Dense textured surface is not a useful confidently normal pilot sample; conservative exclusion."
+    },
+    {
+      "image_sha256": "e56ba05cddf7608b7de8f3ab8fdf1e4e0a153a1bf46563b0342b5e0163327b1f",
+      "parent_id": "source/01_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Dense textured surface is not a useful confidently normal pilot sample; conservative exclusion."
+    },
+    {
+      "image_sha256": "ac4207032cf9e6aefb6eebd73b7879590d85d0e96d340f86ef46f533a93629fb",
+      "parent_id": "source/04_missing_hole_01.jpg",
+      "decision": "accept",
+      "reason": "No obvious defect visible in this crop; no annotated box within 32 pixels. Retain one representative from this board group for a training-only background pilot."
+    },
+    {
+      "image_sha256": "ac4207032cf9e6aefb6eebd73b7879590d85d0e96d340f86ef46f533a93629fb",
+      "parent_id": "source/04_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "ac4207032cf9e6aefb6eebd73b7879590d85d0e96d340f86ef46f533a93629fb",
+      "parent_id": "source/04_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "ac4207032cf9e6aefb6eebd73b7879590d85d0e96d340f86ef46f533a93629fb",
+      "parent_id": "source/04_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "646413b1987542ea316be4bae8647ee3024ccd95b7d081ac94fe7d835d3af3c7",
+      "parent_id": "source/07_missing_hole_01.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "646413b1987542ea316be4bae8647ee3024ccd95b7d081ac94fe7d835d3af3c7",
+      "parent_id": "source/07_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "646413b1987542ea316be4bae8647ee3024ccd95b7d081ac94fe7d835d3af3c7",
+      "parent_id": "source/07_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "646413b1987542ea316be4bae8647ee3024ccd95b7d081ac94fe7d835d3af3c7",
+      "parent_id": "source/07_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "d92265eca7bc638c045070efed748d7edd5451b84af7ff474405a8f2be65dc1a",
+      "parent_id": "source/08_missing_hole_01.jpg",
+      "decision": "accept",
+      "reason": "No obvious defect visible in this crop; no annotated box within 32 pixels. Retain one representative from this board group for a training-only background pilot."
+    },
+    {
+      "image_sha256": "d92265eca7bc638c045070efed748d7edd5451b84af7ff474405a8f2be65dc1a",
+      "parent_id": "source/08_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "d92265eca7bc638c045070efed748d7edd5451b84af7ff474405a8f2be65dc1a",
+      "parent_id": "source/08_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "f767ba91c1057dd00ba575e9608acdf4765723df7cd02af61f1da8fa7d7d1d67",
+      "parent_id": "source/08_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "900fff6e1eb113dfd6ce5bc9ac9b28a28908eb488745a8d383eae8c2b55b338b",
+      "parent_id": "source/09_missing_hole_01.jpg",
+      "decision": "accept",
+      "reason": "No obvious defect visible in this crop; no annotated box within 32 pixels. Retain one representative from this board group for a training-only background pilot."
+    },
+    {
+      "image_sha256": "900fff6e1eb113dfd6ce5bc9ac9b28a28908eb488745a8d383eae8c2b55b338b",
+      "parent_id": "source/09_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "900fff6e1eb113dfd6ce5bc9ac9b28a28908eb488745a8d383eae8c2b55b338b",
+      "parent_id": "source/09_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "900fff6e1eb113dfd6ce5bc9ac9b28a28908eb488745a8d383eae8c2b55b338b",
+      "parent_id": "source/09_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Very similar background from the same board group; avoid redundant negative views."
+    },
+    {
+      "image_sha256": "28dcef0254a384a3a0cfcf1453912e5691125ca540a50565db4785ab0f21c375",
+      "parent_id": "source/12_missing_hole_01.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "28dcef0254a384a3a0cfcf1453912e5691125ca540a50565db4785ab0f21c375",
+      "parent_id": "source/12_missing_hole_02.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "28dcef0254a384a3a0cfcf1453912e5691125ca540a50565db4785ab0f21c375",
+      "parent_id": "source/12_missing_hole_03.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    },
+    {
+      "image_sha256": "28dcef0254a384a3a0cfcf1453912e5691125ca540a50565db4785ab0f21c375",
+      "parent_id": "source/12_missing_hole_04.jpg",
+      "decision": "exclude",
+      "reason": "Mounting-pad/texture detail is ambiguous without expert adjudication; do not assign a normal training label."
+    }
+  ]
+}

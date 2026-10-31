@@ -1,0 +1,46 @@
+{
+  "archive": "downloads/intermediate/yolov8_k100_coco_v1_checkpoint.zip",
+  "archive_checksums_verified": true,
+  "original_k100_selection_verified": true,
+  "completed_epochs": 40,
+  "reports": {
+    "validation_nms070_report.json": {
+      "checkpoint_sha256": "778c2cafdbb7da9abcd54d1894a5df7879ed26010004b1489349ff3416fc11f2",
+      "initialization": "COCO-pretrained YOLOv8s",
+      "training_images": 100,
+      "validation_images": 403,
+      "imgsz": 640,
+      "nms_iou": 0.7,
+      "precision": 0.5057148666358424,
+      "recall": 0.4199364115674533,
+      "mAP50": 0.4137567845285191,
+      "mAP50_95": 0.15907955534218604,
+      "per_class_AP50": {
+        "mouse_bite": 0.3987436754802773,
+        "open_circuit": 0.4394018152118869,
+        "short": 0.24062213626680645,
+        "spur": 0.38088798594736656,
+        "spurious_copper": 0.6091283097362584
+      }
+    },
+    "validation_nms040_report (1).json": {
+      "checkpoint_sha256": "778c2cafdbb7da9abcd54d1894a5df7879ed26010004b1489349ff3416fc11f2",
+      "initialization": "COCO-pretrained YOLOv8s",
+      "training_images": 100,
+      "validation_images": 403,
+      "imgsz": 640,
+      "nms_iou": 0.4,
+      "precision": 0.5367123045525276,
+      "recall": 0.4169629121266351,
+      "mAP50": 0.4107106208681194,
+      "mAP50_95": 0.1521737820939079,
+      "per_class_AP50": {
+        "mouse_bite": 0.39192321488531146,
+        "open_circuit": 0.429629871772106,
+        "short": 0.2607722942229911,
+        "spur": 0.3735784306809866,
+        "spurious_copper": 0.5976492927792018
+      }
+    }
+  }
+}

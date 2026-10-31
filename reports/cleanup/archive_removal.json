@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "preserved": [
+    {
+      "from": "archive/pre_cleanup_source",
+      "to": "docs/history/pre_cleanup_source"
+    },
+    {
+      "from": "archive/legacy_repository/accuracy/prepare_kaggle_upload.py",
+      "to": "tests/legacy_support/accuracy/prepare_kaggle_upload.py",
+      "sha256": "0947855bf6605ba6772b7c506a5fb63c1246f3df5a832c65d8edae1b286dec79"
+    },
+    {
+      "from": "archive/legacy_repository/accuracy/kaggle_setup.py",
+      "to": "tests/legacy_support/accuracy/kaggle_setup.py",
+      "sha256": "35c0c600595a0af7893e86d463230d9d418b957795bbf256a3b2f644303a053a"
+    },
+    {
+      "from": "archive/legacy_repository/accuracy/train_recovery.py",
+      "to": "tests/legacy_support/accuracy/train_recovery.py",
+      "sha256": "b3f56a972da4e8dd4fd51da4b5f93614c80ad2e110edb511eed156468a164de9"
+    },
+    {
+      "from": "archive/legacy_repository/accuracy/notebook_controls.py",
+      "to": "tests/legacy_support/accuracy/notebook_controls.py",
+      "sha256": "cfcbfe5d84612bea2ddae2793a9b828c2e0931469d977c98bb86fa6b50c454f2"
+    },
+    {
+      "from": "archive/legacy_repository/accuracy/build_notebook.py",
+      "to": "tests/legacy_support/accuracy/build_notebook.py",
+      "sha256": "c7d314164bb52bf90130786e16788df7a1d63bfb4d5434f702703e8da357acbf"
+    }
+  ],
+  "removed_historical_mappings": {
+    "phase1_fast": "archive/legacy_repository/phase1_fast",
+    "phase2": "archive/legacy_repository/phase2",
+    "phase3": "archive/legacy_repository/phase3",
+    "phase4": "archive/legacy_repository/phase4",
+    "accuracy": "archive/legacy_repository/accuracy",
+    "frontend": "archive/legacy_repository/frontend",
+    "train": "archive/legacy_repository/train",
+    "evaluation": "archive/legacy_repository/evaluation",
+    "edge": "archive/legacy_repository/edge",
+    "scripts/01_download_pku_dataset.py": "archive/legacy_repository/scripts/01_download_pku_dataset.py",
+    "scripts/02_dataset_stats.py": "archive/legacy_repository/scripts/02_dataset_stats.py",
+    "scripts/03_train_test_split.py": "archive/legacy_repository/scripts/03_train_test_split.py",
+    "scripts/04_download_dspcbsd_dataset.py": "archive/legacy_repository/scripts/04_download_dspcbsd_dataset.py",
+    "scripts/05_class_mapping.py": "archive/legacy_repository/scripts/05_class_mapping.py",
+    "scripts/06_sample_target_images.py": "archive/legacy_repository/scripts/06_sample_target_images.py",
+    "scripts/check_pipeline.py": "archive/legacy_repository/scripts/check_pipeline.py",
+    "data/pku_market": "archive/legacy_repository/data/pku_market",
+    "data/phase1_complete": "archive/legacy_repository/data/phase1_complete",
+    "data/roboflow_full": "archive/legacy_repository/data/roboflow_full",
+    "data/pcb_six_class_recovery": "archive/legacy_repository/data/pcb_six_class_recovery",
+    "data/phase2_shared": "archive/legacy_repository/data/phase2_shared",
+    "data/rul_synthetic": "archive/legacy_repository/data/rul_synthetic",
+    "data/revamp_kaggle_v1": "archive/legacy_repository/data/revamp_kaggle_v1",
+    "__pycache__": "archive/generated/__pycache__",
+    ".pytest_cache": "archive/generated/.pytest_cache",
+    "runtime_logs": "archive/generated/runtime_logs",
+    "runs": "archive/generated/runs",
+    "requirements.txt": "archive/legacy_repository/requirements.txt"
+  },
+  "removed_allocated_kib": 10404980,
+  "deleted_directory": "archive/ (temporarily renamed .archive_pending_remove for verification)",
+  "tests_passed": 88,
+  "historical_hashes_checked": 11413,
+  "kaggle_zip_unchanged": true,
+  "downloads_modified": false
+}

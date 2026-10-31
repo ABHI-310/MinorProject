@@ -1,0 +1,6 @@
+{
+  "scope": "Three CPU updates at 128 pixels; restart in a fresh process; not accuracy evidence",
+  "model_state_identical": true,
+  "optimizer_state_identical": true,
+  "completed_steps": 3
+}

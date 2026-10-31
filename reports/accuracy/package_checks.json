@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "zip_crc": "passed",
+  "all_manifest_hashes": "passed",
+  "duplicate_archive_entries": 0,
+  "test_images_in_package": 0,
+  "train": {
+    "images": 6485,
+    "instances": {
+      "missing_hole": 683,
+      "mouse_bite": 2068,
+      "open_circuit": 1750,
+      "short": 1333,
+      "spur": 3502,
+      "spurious_copper": 1648
+    }
+  },
+  "validation": {
+    "images": 523,
+    "instances": {
+      "missing_hole": 96,
+      "mouse_bite": 257,
+      "open_circuit": 210,
+      "short": 142,
+      "spur": 390,
+      "spurious_copper": 213
+    }
+  },
+  "package_MiB": 1023.7,
+  "notebook_code_syntax": "passed",
+  "production_checkpoints": "unchanged",
+  "full_GPU_training": "not run"
+}

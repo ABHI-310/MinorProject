@@ -1,0 +1,200 @@
+[
+  {
+    "class_name": "missing_hole",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/01_missing_hole_15.jpg",
+    "image_sha256": "87bfbe3fb1a3ac6ac15877cfe92e5e34b531f4c5a62431bbe53f3f641888ad12",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "mouse_bite",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/01_mouse_bite_04.jpg",
+    "image_sha256": "78148752f6ab81a9da77619709706a9040bf0b12071d9c011740cc511d6a4b38",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "open_circuit",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/04_open_circuit_16.jpg",
+    "image_sha256": "4ffa88fe39f8ddc12e48effb7ea879b62c9b0c8a56664914c367b5787b2f13f9",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "short",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/04_short_12.jpg",
+    "image_sha256": "5139516ceff8187bf497f1ba3a0f7b25d9b81cdc2d527cc29893c2c8fd3a7ae8",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spur",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/04_spur_09.jpg",
+    "image_sha256": "a9c87e5c3ec279acd31eb0dff235d290d3456f192a8d364035ee602e80168811",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spurious_copper",
+    "contact_sheet": "samples/source_train.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/train/01_spurious_copper_18.jpg",
+    "image_sha256": "58118eb42ad21dc344b735526ed98467e71d8c2df0303018a6f0ce95f67c8af2",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "missing_hole",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/05_missing_hole_04.jpg",
+    "image_sha256": "5421f3c2d3719356e70a57ee57eb74e4773c43a012b43a09f3a99160f78b61f8",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "mouse_bite",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/11_mouse_bite_08.jpg",
+    "image_sha256": "262ed922802883d0e4a4ce76fabbe49e4fcd00b3212966bfbd0df8c4e7075fb7",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "open_circuit",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/05_open_circuit_03.jpg",
+    "image_sha256": "097291c818eafa5b70ba160074c58f542f432a57d7d8497b581f96ce5922cd47",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "short",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/11_short_09.jpg",
+    "image_sha256": "805d088d050de32c6b18548f2ec3d8acfdfb0518bfca337c04e2e44f47ca56b4",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spur",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/11_spur_04.jpg",
+    "image_sha256": "68a730b6d908fad2bc48258a5a49e624f75f2a965d6a5c13e520effbde94ea08",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spurious_copper",
+    "contact_sheet": "samples/source_val.jpg",
+    "dataset": "source",
+    "image": "data/phase1_verified/images/val/05_spurious_copper_02.jpg",
+    "image_sha256": "0530cc7ef88ad5271f86ca7e748bcf95a08b7e09b97b1cd878435c25abc5e56a",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "mouse_bite",
+    "contact_sheet": "samples/target_train.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/train/0377495.jpg",
+    "image_sha256": "32335d48fb3e5d2a414ad7a7df5c74363fd0f74919d06913da46fea3050acd9a",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "open_circuit",
+    "contact_sheet": "samples/target_train.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/train/E_003378.jpg",
+    "image_sha256": "c92e1f53dfee8d72d36011cf964e0d2ea34d65a194fc133f59d1026877d46d73",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "short",
+    "contact_sheet": "samples/target_train.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/train/E_004287.jpg",
+    "image_sha256": "a51bf10f9fbaa5d8b5bf03e1240447318fa4a11464e1f17ea1df8118d816f98e",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spur",
+    "contact_sheet": "samples/target_train.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/train/S_11049811.jpg",
+    "image_sha256": "6206f3416ce3e475faca19062c00fc4ffd7483dce626b8fa79671d764efead8c",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spurious_copper",
+    "contact_sheet": "samples/target_train.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/train/S_11761100.jpg",
+    "image_sha256": "291a7a44ad4699b70877970feee5f20263b247b5428658e304431208c5aa9710",
+    "split": "train",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "mouse_bite",
+    "contact_sheet": "samples/target_val.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/val/0390981.jpg",
+    "image_sha256": "aa7ce574727570ea73dec4c09b00efba9ff8c1a4c9864d36124d6b9e1a21e89d",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "open_circuit",
+    "contact_sheet": "samples/target_val.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/val/S_11462974.jpg",
+    "image_sha256": "5c4a3b97d6879dab9c5a89416dfaeca4c8b8cf9669390166d43ba9d74be748cb",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "short",
+    "contact_sheet": "samples/target_val.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/val/S_11833464.jpg",
+    "image_sha256": "e899e7c6b2df0d50877dbb0caf9d7b635c99c9f146427cda30b394c9535be5b0",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spur",
+    "contact_sheet": "samples/target_val.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/val/S_12036577.jpg",
+    "image_sha256": "6052f17b737d2b7ae00bb200288fe5965d7ec517d5ac15abfb8a64ec88568b66",
+    "split": "val",
+    "status": "pending_visual_review"
+  },
+  {
+    "class_name": "spurious_copper",
+    "contact_sheet": "samples/target_val.jpg",
+    "dataset": "target",
+    "image": "data/phase2_full_target/images/val/S_10316378.jpg",
+    "image_sha256": "6527ef97adf3795e16b36f718ff24964182c7575a2b227d5976c01b6b98489b4",
+    "split": "val",
+    "status": "pending_visual_review"
+  }
+]

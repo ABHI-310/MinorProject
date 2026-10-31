@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "views_checked": 5079,
+  "checks": [
+    "Every parent matches audited training/validation split",
+    "Full images and labels unchanged in meaning",
+    "Every intersecting defect included; no partial or near-edge defect",
+    "Derived boxes independently recomputed from parent coordinates"
+  ],
+  "original_inputs_modified": false
+}

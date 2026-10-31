@@ -1,0 +1,85 @@
+.runtime-banner {
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.runtime-banner__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.runtime-banner__dot {
+  width: 7px;
+  height: 7px;
+  background: #f59e0b;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+}
+
+.runtime-banner__tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #b45309;
+  letter-spacing: 0.06em;
+}
+
+.runtime-banner__divider {
+  color: #cbd5e1;
+}
+
+.runtime-banner__desc {
+  color: #475569;
+}
+
+.runtime-banner__desc strong {
+  color: #1e293b;
+}
+
+.runtime-banner__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.runtime-banner__model-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.runtime-banner__f1-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: #dcfce7;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.f1-dot {
+  width: 5px;
+  height: 5px;
+  background: #16a34a;
+  border-radius: 50%;
+}

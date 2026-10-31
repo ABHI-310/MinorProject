@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: pcb_maintenance
+      POSTGRES_USER: pcb
+      POSTGRES_PASSWORD: pcb_dev_only
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pcb -d pcb_maintenance"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  api:
+    build:
+      context: .
+      dockerfile: configs/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://pcb:pcb_dev_only@postgres:5432/pcb_maintenance
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      PCB_DEVICE: cpu
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./data/synthetic/phase3_rul:/app/data/synthetic/phase3_rul:ro
+      - inspection_images:/app/data/application/inspection_images
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  postgres_data:
+  inspection_images:

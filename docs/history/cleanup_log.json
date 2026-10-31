@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "scope": "/Users/abhinavgupta/Developer/MinorProject",
+  "removed": [
+    {
+      "path": "phase1_fast/preflight",
+      "removed": true,
+      "approx_MiB": 161
+    },
+    {
+      "path": "phase1_fast/original_recovery_preflight",
+      "removed": true,
+      "approx_MiB": 558
+    },
+    {
+      "path": "phase2/preflight",
+      "files": 26,
+      "bytes": 85400028,
+      "removed": true
+    },
+    {
+      "path": "phase2/notebook_preflight",
+      "files": 3422,
+      "bytes": 459265006,
+      "removed": true
+    },
+    {
+      "path": "phase1_fast/pcb_roboflow_clean.zip",
+      "files": 1,
+      "bytes": 160426327,
+      "removed": true
+    },
+    {
+      "path": "__pycache__",
+      "files": 2,
+      "bytes": 6716,
+      "removed": true
+    },
+    {
+      "path": "phase1_fast/__pycache__",
+      "files": 3,
+      "bytes": 35702,
+      "removed": true
+    },
+    {
+      "path": "phase2/__pycache__",
+      "files": 3,
+      "bytes": 51357,
+      "removed": true
+    }
+  ],
+  "protected_files_sha256": {
+    "phase1_final/model.pt": "79170e0bf457afc6a8ab40bb05e2539b5724d0e7ac6d074ad78a252a32a69c00",
+    "phase2/PCB_Phase2_Plain_Kaggle.ipynb": "09eea45408788f04fb2413dbad203f6e4f74b3c1af77096fbbebbef5a98806bb",
+    "phase2/PCB_Phase2_Kaggle.ipynb": "46b18921dc7b2153b7910eabc01e16b16e2c5a34612de9d3b40d3c66b76391ba",
+    "phase2/phase2_shared.zip": "316a0c4e46079302945617a83310e830e5cb65a2368fe472a884608a0598afed",
+    "phase1_fast/pcb_original_recovery.zip": "875426399bb0fcaf0ad5a058bfb05d4aaa8bdcdcccba1b82cebe18a5ce8a0945",
+    "PROJECT_MASTER_PROMPT.md": "297d40181c5ea6fcb363763be4abb726a1f3364ad6526f28629433da53fde85e"
+  },
+  "note": "Only known local preflight outputs, obsolete Roboflow upload ZIP, and Python caches deleted. Internal test-directory symlinks unlinked without touching targets. Research results and datasets retained. No files outside MinorProject touched."
+}

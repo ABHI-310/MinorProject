@@ -1,0 +1,58 @@
+{
+  "provenance": "Metrics transcribed from the user's pasted Kaggle output on 2026-10-23. No candidate weights are available locally for independent verification.",
+  "status": "reported_training_complete_model_files_not_recovered",
+  "model": "YOLOv8s",
+  "image_size": 960,
+  "completed_epochs": 58,
+  "best_epoch": 43,
+  "training_hours": 3.304,
+  "candidate_passed_review_gates": false,
+  "test_used": false,
+  "mixed_validation": {
+    "images": 523,
+    "instances": 1308,
+    "precision": 0.821,
+    "recall": 0.78,
+    "mAP50": 0.846,
+    "mAP50_95": 0.435
+  },
+  "source_validation": {
+    "images": 120,
+    "instances": 562,
+    "precision": 0.86,
+    "recall": 0.832,
+    "mAP50": 0.884,
+    "mAP50_95": 0.457,
+    "per_class": {
+      "missing_hole": {"precision": 1.0, "recall": 0.787, "mAP50": 0.973, "mAP50_95": 0.54},
+      "mouse_bite": {"precision": 0.882, "recall": 0.792, "mAP50": 0.837, "mAP50_95": 0.442},
+      "open_circuit": {"precision": 0.968, "recall": 0.976, "mAP50": 0.975, "mAP50_95": 0.521},
+      "short": {"precision": 0.941, "recall": 0.784, "mAP50": 0.835, "mAP50_95": 0.404},
+      "spur": {"precision": 0.84, "recall": 0.79, "mAP50": 0.839, "mAP50_95": 0.385},
+      "spurious_copper": {"precision": 0.531, "recall": 0.861, "mAP50": 0.845, "mAP50_95": 0.449}
+    }
+  },
+  "target_validation": {
+    "images": 403,
+    "instances": 746,
+    "evaluated_class_ids": [1, 2, 3, 4, 5],
+    "precision": 0.768,
+    "recall": 0.754,
+    "mAP50": 0.811,
+    "mAP50_95": 0.411,
+    "per_class": {
+      "mouse_bite": {"precision": 0.748, "recall": 0.722, "mAP50": 0.736, "mAP50_95": 0.328},
+      "open_circuit": {"precision": 0.721, "recall": 0.866, "mAP50": 0.841, "mAP50_95": 0.478},
+      "short": {"precision": 0.764, "recall": 0.902, "mAP50": 0.901, "mAP50_95": 0.508},
+      "spur": {"precision": 0.813, "recall": 0.555, "mAP50": 0.751, "mAP50_95": 0.315},
+      "spurious_copper": {"precision": 0.792, "recall": 0.723, "mAP50": 0.827, "mAP50_95": 0.425}
+    }
+  },
+  "recovery_observations": {
+    "current_draft": "New running draft session; output browser contains only .virtual_documents. Persistence displays No persistence.",
+    "saved_version_id": 361360469,
+    "saved_version_status": "Failed after approximately 25 seconds at the CUDA availability assertion; viewer reports 0 output files.",
+    "downloads_check": "No matching six-class checkpoint/results files found at the top level of the local Downloads folder.",
+    "production_models": "No production model replacement performed."
+  }
+}
